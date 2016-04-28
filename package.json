@@ -1,0 +1,28 @@
+{
+  "name": "scrape-it",
+  "description": "A scraping module for humans.",
+  "keywords": [
+    "scrape",
+    "it",
+    "a",
+    "scraping",
+    "module",
+    "for",
+    "humans"
+  ],
+  "license": "MIT",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IonicaBizau/scrape-it.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/scrape-it/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/scrape-it#readme"
+}
