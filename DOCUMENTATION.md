@@ -77,5 +77,5 @@ Scrapes the data in the provided element.
 - **Function** `$`: The Cheerio function.
 
 #### Return
-- **Object** The scrapped data.
+- **Object** The scraped data.
 
