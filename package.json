@@ -1,6 +1,6 @@
 {
   "name": "scrape-it",
-  "description": "A scraping module for humans.",
+  "description": "A Node.js scraper for humans.",
   "keywords": [
     "scrape",
     "it",
@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/scrape-it/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/scrape-it#readme"
+  "homepage": "https://github.com/IonicaBizau/scrape-it#readme",
+  "blah": {
+    "h_img": "https://i.imgur.com/j3Z0rbN.png"
+  }
 }
