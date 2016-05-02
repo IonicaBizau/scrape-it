@@ -11,11 +11,7 @@
     "humans"
   ],
   "license": "MIT",
-<<<<<<< HEAD
-  "version": "2.0.0",
-=======
   "version": "2.0.1",
->>>>>>> tests
   "main": "lib/index.js",
   "scripts": {
     "test": "node test"
