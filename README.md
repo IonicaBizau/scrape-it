@@ -21,28 +21,36 @@ $ npm i --save scrape-it
 ```js
 const scrapeIt = require("scrape-it");
 
-scrapeIt("http://ionicabizau.net", [
-    // Fetch the articles on the page (list)
-    {
+scrapeIt("http://ionicabizau.net", {
+    // Fetch the articles
+    articles: {
         listItem: ".article"
-      , name: "articles"
       , data: {
+
+            // Get the article date and convert it into a Date object
             createdAt: {
                 selector: ".date"
               , convert: x => new Date(x)
             }
+
+            // Get the title
           , title: "a.article-title"
+
+            // Nested list
           , tags: {
-                selector: ".tags"
-              , convert: x => x.split("|").map(c => c.trim()).slice(1)
+                listItem: ".tags > span"
             }
+
+            // Get the content
           , content: {
                 selector: ".article-content"
               , how: "html"
             }
         }
     }
-  , {
+
+    // Fetch the blog pages
+  , pages: {
         listItem: "li.page"
       , name: "pages"
       , data: {
@@ -53,16 +61,15 @@ scrapeIt("http://ionicabizau.net", [
             }
         }
     }
-    // Fetch some additional data
-  , {
-        title: ".header h1"
-      , desc: ".header h2"
-      , avatar: {
-            selector: ".header img"
-          , attr: "src"
-        }
-  }
-], (err, page) => {
+
+    // Fetch some other data from the page
+  , title: ".header h1"
+  , desc: ".header h2"
+  , avatar: {
+        selector: ".header img"
+      , attr: "src"
+    }
+}, (err, page) => {
     console.log(err || page);
 });
 // { articles:
@@ -90,6 +97,7 @@ scrapeIt("http://ionicabizau.net", [
 ```
 
 ## :memo: Documentation
+
 
 ### `scrapeIt(url, opts, cb)`
 A scraping module for humans.
