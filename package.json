@@ -14,7 +14,7 @@
   "version": "1.0.2",
   "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test"
   },
   "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
   "repository": {
@@ -35,5 +35,9 @@
     "iterate-object": "^1.3.2",
     "obj-def": "^1.0.0",
     "typpy": "^2.3.2"
+  },
+  "devDependencies": {
+    "lien": "^1.0.1",
+    "tester": "^1.3.2"
   }
 }
