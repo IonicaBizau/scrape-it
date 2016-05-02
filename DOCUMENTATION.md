@@ -7,7 +7,7 @@ A scraping module for humans.
 
 #### Params
 - **String|Object** `url`: The page url or request options.
-- **Object|Array** `opts`: The options passed to `scrapeCheerio` method.
+- **Object** `opts`: The options passed to `scrapeCheerio` method.
 - **Function** `cb`: The callback function.
 
 #### Return
@@ -18,7 +18,7 @@ Scrapes the data in the provided element.
 
 #### Params
 - **Cheerio** `$input`: The input element.
-- **Object** `opts`: An array or object containing the scraping information.
+- **Object** `opts`: An object containing the scraping information.
   If you want to scrape a list, you have to use the `listItem` selector:
 
    - `listItem` (String): The list item selector.

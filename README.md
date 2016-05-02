@@ -3,9 +3,7 @@
 
 # scrape-it
 
-[![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations]
-[![AMA](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama)
-[![Version](https://img.shields.io/npm/v/scrape-it.svg)](https://www.npmjs.com/package/scrape-it) [![Downloads](https://img.shields.io/npm/dt/scrape-it.svg)](https://www.npmjs.com/package/scrape-it) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+ [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![AMA](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Version](https://img.shields.io/npm/v/scrape-it.svg)](https://www.npmjs.com/package/scrape-it) [![Downloads](https://img.shields.io/npm/dt/scrape-it.svg)](https://www.npmjs.com/package/scrape-it) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > A Node.js scraper for humans.
 
@@ -23,28 +21,36 @@ $ npm i --save scrape-it
 ```js
 const scrapeIt = require("scrape-it");
 
-scrapeIt("http://ionicabizau.net", [
-    // Fetch the articles on the page (list)
-    {
+scrapeIt("http://ionicabizau.net", {
+    // Fetch the articles
+    articles: {
         listItem: ".article"
-      , name: "articles"
       , data: {
+
+            // Get the article date and convert it into a Date object
             createdAt: {
                 selector: ".date"
               , convert: x => new Date(x)
             }
+
+            // Get the title
           , title: "a.article-title"
+
+            // Nested list
           , tags: {
-                selector: ".tags"
-              , convert: x => x.split("|").map(c => c.trim()).slice(1)
+                listItem: ".tags > span"
             }
+
+            // Get the content
           , content: {
                 selector: ".article-content"
               , how: "html"
             }
         }
     }
-  , {
+
+    // Fetch the blog pages
+  , pages: {
         listItem: "li.page"
       , name: "pages"
       , data: {
@@ -55,16 +61,15 @@ scrapeIt("http://ionicabizau.net", [
             }
         }
     }
-    // Fetch some additional data
-  , {
-        title: ".header h1"
-      , desc: ".header h2"
-      , avatar: {
-            selector: ".header img"
-          , attr: "src"
-        }
-  }
-], (err, page) => {
+
+    // Fetch some other data from the page
+  , title: ".header h1"
+  , desc: ".header h2"
+  , avatar: {
+        selector: ".header img"
+      , attr: "src"
+    }
+}, (err, page) => {
     console.log(err || page);
 });
 // { articles:
@@ -99,7 +104,7 @@ A scraping module for humans.
 
 #### Params
 - **String|Object** `url`: The page url or request options.
-- **Object|Array** `opts`: The options passed to `scrapeCheerio` method.
+- **Object** `opts`: The options passed to `scrapeCheerio` method.
 - **Function** `cb`: The callback function.
 
 #### Return
@@ -110,7 +115,7 @@ Scrapes the data in the provided element.
 
 #### Params
 - **Cheerio** `$input`: The input element.
-- **Object** `opts`: An array or object containing the scraping information.
+- **Object** `opts`: An object containing the scraping information.
   If you want to scrape a list, you have to use the `listItem` selector:
 
    - `listItem` (String): The list item selector.
