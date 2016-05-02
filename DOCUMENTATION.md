@@ -13,11 +13,11 @@ A scraping module for humans.
 #### Return
 - **Tinyreq** The request object.
 
-### `scrapeIt.scrapeCheerio($input, opts, $)`
+### `scrapeIt.scrapeCheerio($, opts)`
 Scrapes the data in the provided element.
 
 #### Params
-- **Cheerio** `$input`: The input element.
+- **Cheerio** `$`: The input element.
 - **Object** `opts`: An object containing the scraping information.
   If you want to scrape a list, you have to use the `listItem` selector:
 
@@ -40,23 +40,23 @@ Scrapes the data in the provided element.
   **Example**:
   ```js
   {
-      listItem: ".article"
-    , name: "articles"
-    , data: {
-          createdAt: {
-              selector: ".date"
-            , convert: x => new Date(x)
-          }
-        , title: "a.article-title"
-        , tags: {
-              selector: ".tags"
-            , convert: x => x.split("|").map(c => c.trim()).slice(1)
-          }
-        , content: {
-              selector: ".article-content"
-            , how: "html"
-          }
-      }
+     articles: {
+         listItem: ".article"
+       , data: {
+             createdAt: {
+                 selector: ".date"
+               , convert: x => new Date(x)
+             }
+           , title: "a.article-title"
+           , tags: {
+                 listItem: ".tags > span"
+             }
+           , content: {
+                 selector: ".article-content"
+               , how: "html"
+             }
+         }
+     }
   }
   ```
 
@@ -74,7 +74,6 @@ Scrapes the data in the provided element.
        }
   }
   ```
-- **Function** `$`: The Cheerio function.
 
 #### Return
 - **Object** The scraped data.
