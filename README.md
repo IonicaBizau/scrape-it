@@ -17,7 +17,6 @@ $ npm i --save scrape-it
 ## :clipboard: Example
 
 
-
 ```js
 const scrapeIt = require("scrape-it");
 
