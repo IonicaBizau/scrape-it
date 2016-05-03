@@ -11,7 +11,7 @@ A scraping module for humans.
 - **Function** `cb`: The callback function.
 
 #### Return
-- **Tinyreq** The request object.
+- **Promise** A promise object.
 
 ### `scrapeIt.scrapeCheerio($, opts)`
 Scrapes the data in the provided element.
@@ -22,7 +22,6 @@ Scrapes the data in the provided element.
   If you want to scrape a list, you have to use the `listItem` selector:
 
    - `listItem` (String): The list item selector.
-   - `name` (String): The list name (e.g. `articles`).
    - `data` (Object): The fields to include in the list objects:
       - `<fieldName>` (Object|String): The selector or an object containing:
          - `selector` (String): The selector.
