@@ -53,6 +53,25 @@ tester.describe("scrape-it", t => {
             cb();
         });
     });
+    t.it("promise version", cb => {
+        scrapeIt(URL, {
+            features: {
+                listItem: ".features > li"
+            }
+        }).then(page => {
+            t.expect(page).toEqual({
+                features: [
+                    "1"
+                  , "2"
+                  , "3"
+                  , "4"
+                  , "5"
+                  , "6"
+                ]
+            });
+            cb();
+        });
+    });
 
     t.it("end", () => {
         process.exit();

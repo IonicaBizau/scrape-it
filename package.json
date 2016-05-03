@@ -29,6 +29,7 @@
     "h_img": "https://i.imgur.com/j3Z0rbN.png"
   },
   "dependencies": {
+    "assured": "^1.0.0",
     "cheerio-req": "^1.0.0",
     "err": "^2.1.1",
     "is-empty-obj": "^1.0.3",
