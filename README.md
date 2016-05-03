@@ -72,13 +72,13 @@ A scraping module for humans.
 
 #### Params
 - **String|Object** `url`: The page url or request options.
-- **Object** `opts`: The options passed to `scrapeCheerio` method.
+- **Object** `opts`: The options passed to `scrapeHTML` method.
 - **Function** `cb`: The callback function.
 
 #### Return
 - **Promise** A promise object.
 
-### `scrapeIt.scrapeCheerio($, opts)`
+### `scrapeIt.scrapeHTML($, opts)`
 Scrapes the data in the provided element.
 
 #### Params
