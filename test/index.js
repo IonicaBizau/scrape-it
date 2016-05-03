@@ -72,6 +72,43 @@ tester.describe("scrape-it", t => {
             cb();
         });
     });
+    t.it("nested objects", cb => {
+        scrapeIt(URL, {
+            nested: {
+                selector: ".nested"
+              , data: {
+                    foo: {
+                        data: {
+                            level1: {
+                                selector: ".level1"
+                              , data: {
+                                    level2: {
+                                        selector: "span"
+                                      , eq: 1
+                                    }
+                                }
+                            }
+                          , level1Text: "span"
+                          , level2Text: ".level2"
+                        }
+                    }
+                }
+            }
+        }, (err, page) => {
+            t.expect(page).toEqual({
+                nested: {
+                    foo: {
+                        level1: {
+                            level2: "2"
+                        }
+                      , level2Text: "2"
+                      , level1Text: "Foo12"
+                    }
+                }
+            });
+            cb();
+        });
+    });
 
     t.it("end", () => {
         process.exit();
