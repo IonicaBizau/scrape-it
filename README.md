@@ -19,7 +19,7 @@ $ npm i --save scrape-it
 
 
 ```js
-const scrapeIt = require("../lib");
+const scrapeIt = require("scrape-it");
 
 // Promise interface
 scrapeIt("http://ionicabizau.net", {
