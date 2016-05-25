@@ -196,6 +196,7 @@ Have an idea? Found a bug? See [how to contribute][contributing].
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
 
+ - [`codementor`](https://github.com/IonicaBizau/codementor#readme)—A scraper for codementor.io.
  - [`ui-studentsearch`](https://github.com/rkkautsar/ui-studentsearch#readme) (by Rakha Kanz Kautsar)—API for majapahit.cs.ui.ac.id/studentsearch
 
 ## :scroll: License
