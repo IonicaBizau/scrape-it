@@ -198,6 +198,7 @@ If you are using this library in one of your projects, add it in this list. :spa
 
  - [`codementor`](https://github.com/IonicaBizau/codementor#readme)—A scraper for codementor.io.
  - [`ui-studentsearch`](https://github.com/rkkautsar/ui-studentsearch#readme) (by Rakha Kanz Kautsar)—API for majapahit.cs.ui.ac.id/studentsearch
+ - [`bandcamp-scraper`](https://github.com/masterT/bandcamp-scraper#readme) (by Simon Thiboutôt) A scraper for https://bandcamp.com
 
 ## :scroll: License
 
