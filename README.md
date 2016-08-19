@@ -187,7 +187,29 @@ Scrapes the data in the provided element.
 #### Return
 - **Object** The scraped data.
 
+## Using with Docker
 
+Build the Docker image:
+
+`cd dockerized && docker build -t scrap-it .`
+
+Run container:
+
+`docker run --rm -u=$(id -u) -v </path/to/files/*.js>:/data scrap-it`
+
+`</path/to/files/*.js>` should be replaced for the absolute path where the `*.js` files to scrap are located.
+
+For example:
+
+`cd dockerized/ && docker run --rm -u=$(id -u) -v $(pwd)/examples:/data scrap-it`
+
+How it works?
+
+Docker runs a container mounting `$(pwd)/examples` directory as volume inside the container on `/data` directory. So, all files `*.js` inside the `$(pwd)/examples` will be processed. It makes a directory called `scrapped` inside the `$(pwd)/examples` directory (like `$(pwd)/examples/scrapped`) with the results.
+
+`--rm` deletes the container after exit.
+
+`-u=$(id -u)` executes the container with own user uid instead of root.
 
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
