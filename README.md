@@ -187,29 +187,7 @@ Scrapes the data in the provided element.
 #### Return
 - **Object** The scraped data.
 
-## Using with Docker
 
-Build the Docker image:
-
-`cd dockerized && docker build -t scrap-it .`
-
-Run container:
-
-`docker run --rm -u=$(id -u) -v </path/to/files/*.js>:/data scrap-it`
-
-`</path/to/files/*.js>` should be replaced for the absolute path where the `*.js` files to scrap are located.
-
-For example:
-
-`cd dockerized/ && docker run --rm -u=$(id -u) -v $(pwd)/examples:/data scrap-it`
-
-How it works?
-
-Docker runs a container mounting `$(pwd)/examples` directory as volume inside the container on `/data` directory. So, all files `*.js` inside the `$(pwd)/examples` will be processed. It makes a directory called `scrapped` inside the `$(pwd)/examples` directory (like `$(pwd)/examples/scrapped`) with the results.
-
-`--rm` deletes the container after exit.
-
-`-u=$(id -u)` executes the container with own user uid instead of root.
 
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
@@ -218,9 +196,14 @@ Have an idea? Found a bug? See [how to contribute][contributing].
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
 
+ - [`bandcamp-scraper`](https://github.com/masterT/bandcamp-scraper) (by Simon Thiboutôt)—A scraper for https://bandcamp.com
  - [`codementor`](https://github.com/IonicaBizau/codementor#readme)—A scraper for codementor.io.
+ - [`proxylist`](https://github.com/selfrefactor/proxylist#readme) (by self_refactor)—Get free proxy list
+ - [`sahibinden`](https://npmjs.com/package/sahibinden) (by Cagatay Cali)—Simple sahibinden.com bot
+ - [`sahibindenServer`](https://npmjs.com/package/sahibindenServer) (by Cagatay Cali)—Simple sahibinden.com bot server side
+ - [`sgdq-collector`](https://github.com/bcongdon/sgdq-collector#readme) (by Benjamin Congdon)—Collects Twitch / Donation information and pushes data to Firebase
+ - [`ubersetzung`](https://github.com/selfrefactor/ubersetzung#readme) (by self_refactor)—translate words with examples from German to English
  - [`ui-studentsearch`](https://github.com/rkkautsar/ui-studentsearch#readme) (by Rakha Kanz Kautsar)—API for majapahit.cs.ui.ac.id/studentsearch
- - [`bandcamp-scraper`](https://github.com/masterT/bandcamp-scraper#readme) (by Simon Thiboutôt) A scraper for https://bandcamp.com
 
 ## :scroll: License
 
