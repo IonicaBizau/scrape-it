@@ -3,7 +3,7 @@
 
 # scrape-it
 
- [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![AMA](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Travis](https://img.shields.io/travis/IonicaBizau/scrape-it.svg)](https://travis-ci.org/IonicaBizau/scrape-it/) [![Version](https://img.shields.io/npm/v/scrape-it.svg)](https://www.npmjs.com/package/scrape-it) [![Downloads](https://img.shields.io/npm/dt/scrape-it.svg)](https://www.npmjs.com/package/scrape-it) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+ [![Patreon](https://img.shields.io/badge/Support%20me%20on-Patreon-%23e6461a.svg)][paypal-donations] [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![AMA](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Travis](https://img.shields.io/travis/IonicaBizau/scrape-it.svg)](https://travis-ci.org/IonicaBizau/scrape-it/) [![Version](https://img.shields.io/npm/v/scrape-it.svg)](https://www.npmjs.com/package/scrape-it) [![Downloads](https://img.shields.io/npm/dt/scrape-it.svg)](https://www.npmjs.com/package/scrape-it) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > A Node.js scraper for humans.
 
@@ -192,11 +192,22 @@ Scrapes the data in the provided element.
 ## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
+## :moneybag: Donations
+
+Another way to support the development of my open-source modules is
+to [set up a recurring donation, via Patreon][patreon]. :rocket:
+
+[PayPal donations][paypal-donations] are appreciated too! Each dollar helps.
+
+Thanks! :heart:
+
 ## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
 
+ - [`3abn`](https://github.com/IonicaBizau/3abn#readme)—A 3ABN radio client in the terminal.
  - [`bandcamp-scraper`](https://github.com/masterT/bandcamp-scraper) (by Simon Thiboutôt)—A scraper for https://bandcamp.com
+ - [`cevo-lookup`](https://npmjs.com/package/cevo-lookup) (by Zack Boehm)—Searchs the CEVO Suspension List for bans by SteamID
  - [`codementor`](https://github.com/IonicaBizau/codementor#readme)—A scraper for codementor.io.
  - [`proxylist`](https://github.com/selfrefactor/proxylist#readme) (by self_refactor)—Get free proxy list
  - [`sahibinden`](https://npmjs.com/package/sahibinden) (by Cagatay Cali)—Simple sahibinden.com bot
@@ -209,6 +220,7 @@ If you are using this library in one of your projects, add it in this list. :spa
 
 [MIT][license] © [Ionică Bizău][website]
 
+[patreon]: https://www.patreon.com/ionicabizau
 [paypal-donations]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RVXDDLKKLQRJW
 [donate-now]: http://i.imgur.com/6cMbHOC.png
 
