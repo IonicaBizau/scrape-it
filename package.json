@@ -11,7 +11,7 @@
     "humans"
   ],
   "license": "MIT",
-  "version": "3.2.1",
+  "version": "3.2.2",
   "main": "lib/index.js",
   "scripts": {
     "test": "node test"
@@ -46,6 +46,7 @@
     "bin/",
     "app/",
     "lib/",
+    "build/",
     "dist/",
     "src/",
     "resources/",
