@@ -1,5 +1,6 @@
 const tester = require("tester")
     , Lien = require("lien")
+    , cheerio = require("cheerio")
     , scrapeIt = require("..")
     ;
 
@@ -105,6 +106,33 @@ tester.describe("scrape-it", t => {
                       , level1Text: "Foo12"
                     }
                 }
+            });
+            cb();
+        });
+    });
+    t.it("closet sample", cb => {
+        scrapeIt(URL, {
+            addresses: {
+                listItem: "table tbody tr",
+                data: {
+                    address: ".address",
+                    suburb: {
+                        selector: ".city",
+                        closest: "table",
+                        convert(html) {
+                            $ = cheerio.load(html);
+                            return ($.text($('.city')));
+                        }
+                    }
+                }
+            }
+        }, (err, page) => {
+            t.expect(err).toBe(null);
+            t.expect(page).toEqual({
+                addresses: [
+                    { address: "one way street", suburb: "Sydney" },
+                    { address: "GT Road", suburb: "Sydney" }
+                ]
             });
             cb();
         });
