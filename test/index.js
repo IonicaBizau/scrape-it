@@ -1,6 +1,5 @@
 const tester = require("tester")
     , Lien = require("lien")
-    , cheerio = require("cheerio")
     , scrapeIt = require("..")
     ;
 
@@ -119,9 +118,8 @@ tester.describe("scrape-it", t => {
                     suburb: {
                         selector: ".city",
                         closest: "table",
-                        convert(html) {
-                            $ = cheerio.load(html);
-                            return ($.text($('.city')));
+                        convert(html, $node) {
+                            return $node.find(".city").text();
                         }
                     }
                 }
