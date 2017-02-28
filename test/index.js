@@ -109,6 +109,32 @@ tester.describe("scrape-it", t => {
             cb();
         });
     });
+    t.it("closet sample", cb => {
+        scrapeIt(URL, {
+            addresses: {
+                listItem: "table tbody tr",
+                data: {
+                    address: ".address",
+                    suburb: {
+                        selector: ".city",
+                        closest: "table",
+                        convert(html, $node) {
+                            return $node.find(".city").text();
+                        }
+                    }
+                }
+            }
+        }, (err, page) => {
+            t.expect(err).toBe(null);
+            t.expect(page).toEqual({
+                addresses: [
+                    { address: "one way street", suburb: "Sydney" },
+                    { address: "GT Road", suburb: "Sydney" }
+                ]
+            });
+            cb();
+        });
+    });
 
     t.it("end", () => {
         process.exit();
