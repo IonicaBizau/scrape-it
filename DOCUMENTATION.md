@@ -4,7 +4,6 @@ You can see below the API reference of this module.
 
 ### `scrapeIt(url, opts, cb)`
 A scraping module for humans.
-
 #### Params
 - **String|Object** `url`: The page url or request options.
 - **Object** `opts`: The options passed to `scrapeHTML` method.
@@ -15,7 +14,6 @@ A scraping module for humans.
 
 ### `scrapeIt.scrapeHTML($, opts)`
 Scrapes the data in the provided element.
-
 #### Params
 - **Cheerio** `$`: The input element.
 - **Object** `opts`: An object containing the scraping information.
@@ -32,6 +30,8 @@ Scrapes the data in the provided element.
            the attribute name.
          - `trim` (Boolean): If `false`, the value will *not* be trimmed
            (default: `true`).
+         - `closest` (String): If provided, returns the first ancestor of
+           the given element.
          - `eq` (Number): If provided, it will select the *nth* element.
          - `listItem` (Object): An object, keeping the recursive schema of
            the `listItem` object. This can be used to create nested lists.
@@ -53,6 +53,11 @@ Scrapes the data in the provided element.
            , content: {
                  selector: ".article-content"
                , how: "html"
+             }
+           , traverseOtherNode: {
+                 selector: ".upperNode"
+               , closest: "div"
+               , convert: x => x.length
              }
          }
      }

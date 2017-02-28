@@ -114,7 +114,6 @@ scrapeIt("http://ionicabizau.net", {
 
 ### `scrapeIt(url, opts, cb)`
 A scraping module for humans.
-
 #### Params
 - **String|Object** `url`: The page url or request options.
 - **Object** `opts`: The options passed to `scrapeHTML` method.
@@ -125,7 +124,6 @@ A scraping module for humans.
 
 ### `scrapeIt.scrapeHTML($, opts)`
 Scrapes the data in the provided element.
-
 #### Params
 - **Cheerio** `$`: The input element.
 - **Object** `opts`: An object containing the scraping information.
@@ -142,6 +140,8 @@ Scrapes the data in the provided element.
            the attribute name.
          - `trim` (Boolean): If `false`, the value will *not* be trimmed
            (default: `true`).
+         - `closest` (String): If provided, returns the first ancestor of
+           the given element.
          - `eq` (Number): If provided, it will select the *nth* element.
          - `listItem` (Object): An object, keeping the recursive schema of
            the `listItem` object. This can be used to create nested lists.
@@ -163,6 +163,11 @@ Scrapes the data in the provided element.
            , content: {
                  selector: ".article-content"
                , how: "html"
+             }
+           , traverseOtherNode: {
+                 selector: ".upperNode"
+               , closest: "div"
+               , convert: x => x.length
              }
          }
      }
@@ -210,10 +215,13 @@ If you are using this library in one of your projects, add it in this list. :spa
  - [`bandcamp-scraper`](https://github.com/masterT/bandcamp-scraper) (by Simon Thiboutôt)—A scraper for https://bandcamp.com
  - [`cevo-lookup`](https://npmjs.com/package/cevo-lookup) (by Zack Boehm)—Searchs the CEVO Suspension List for bans by SteamID
  - [`codementor`](https://github.com/IonicaBizau/codementor#readme)—A scraper for codementor.io.
+ - [`degusta-scrapper`](https://github.com/yohendry/degusta-scrapper#readme) (by yohendry hurtado)—desgusta scrapper for alexa skill
  - [`proxylist`](https://github.com/selfrefactor/proxylist#readme) (by self_refactor)—Get free proxy list
+ - [`rs-api`](https://github.com/alexisio/rs-api#readme) (by Alex Kempf)—Simple wrapper for RuneScape APIs written in node.
  - [`sahibinden`](https://npmjs.com/package/sahibinden) (by Cagatay Cali)—Simple sahibinden.com bot
  - [`sahibindenServer`](https://npmjs.com/package/sahibindenServer) (by Cagatay Cali)—Simple sahibinden.com bot server side
  - [`sgdq-collector`](https://github.com/bcongdon/sgdq-collector#readme) (by Benjamin Congdon)—Collects Twitch / Donation information and pushes data to Firebase
+ - [`trump-cabinet-picks`](https://github.com/LindaHaviv/trump-cabinet-picks#readme) (by Linda Haviv)—NYT cabinet predictions for Trump admin.
  - [`ubersetzung`](https://github.com/selfrefactor/ubersetzung#readme) (by self_refactor)—translate words with examples from German to English
  - [`ui-studentsearch`](https://github.com/rkkautsar/ui-studentsearch#readme) (by Rakha Kanz Kautsar)—API for majapahit.cs.ui.ac.id/studentsearch
 
