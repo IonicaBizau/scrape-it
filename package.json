@@ -11,12 +11,12 @@
     "humans"
   ],
   "license": "MIT",
-  "version": "3.3.0",
+  "version": "3.3.1",
   "main": "lib/index.js",
   "scripts": {
     "test": "node test"
   },
-  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/IonicaBizau/scrape-it.git"
@@ -46,12 +46,11 @@
     "bin/",
     "app/",
     "lib/",
-    "build/",
     "dist/",
     "src/",
+    "scripts/",
     "resources/",
     "menu/",
-    "scripts/",
     "cli.js",
     "index.js"
   ]
