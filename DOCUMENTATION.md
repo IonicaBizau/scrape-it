@@ -4,6 +4,7 @@ You can see below the API reference of this module.
 
 ### `scrapeIt(url, opts, cb)`
 A scraping module for humans.
+
 #### Params
 - **String|Object** `url`: The page url or request options.
 - **Object** `opts`: The options passed to `scrapeHTML` method.
@@ -14,6 +15,7 @@ A scraping module for humans.
 
 ### `scrapeIt.scrapeHTML($, opts)`
 Scrapes the data in the provided element.
+
 #### Params
 - **Cheerio** `$`: The input element.
 - **Object** `opts`: An object containing the scraping information.
