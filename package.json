@@ -11,7 +11,7 @@
     "humans"
   ],
   "license": "MIT",
-  "version": "3.3.2",
+  "version": "3.3.3",
   "main": "lib/index.js",
   "scripts": {
     "test": "node test"
@@ -52,6 +52,9 @@
     "resources/",
     "menu/",
     "cli.js",
-    "index.js"
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
   ]
 }
