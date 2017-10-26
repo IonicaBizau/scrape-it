@@ -1,9 +1,9 @@
-"use strict";
+"use strict"
 
-const scrapeIt = require("../lib");
+const scrapeIt = require("../lib")
 
 // Promise interface
-scrapeIt("http://ionicabizau.net", {
+scrapeIt("https://ionicabizau.net", {
     title: ".header h1"
   , desc: ".header h2"
   , avatar: {
@@ -11,11 +11,11 @@ scrapeIt("http://ionicabizau.net", {
       , attr: "src"
     }
 }).then(page => {
-    console.log(page);
-});
+    console.log(page)
+})
 
 // Callback interface
-scrapeIt("http://ionicabizau.net", {
+scrapeIt("https://ionicabizau.net", {
     // Fetch the articles
     articles: {
         listItem: ".article"
@@ -64,8 +64,8 @@ scrapeIt("http://ionicabizau.net", {
       , attr: "src"
     }
 }, (err, page) => {
-    console.log(err || page);
-});
+    console.log(err || page)
+})
 // { articles:
 //    [ { createdAt: Mon Mar 14 2016 00:00:00 GMT+0200 (EET),
 //        title: 'Pi Day, Raspberry Pi and Command Line',
