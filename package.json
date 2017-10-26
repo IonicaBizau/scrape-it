@@ -31,7 +31,7 @@
   "dependencies": {
     "assured": "^1.0.0",
     "cheerio": "^0.20.0",
-    "cheerio-req": "^1.0.0",
+    "cheerio-req": "^1.2.0",
     "err": "^2.1.1",
     "is-empty-obj": "^1.0.3",
     "iterate-object": "^1.3.2",
