@@ -116,10 +116,9 @@ tester.describe("scrape-it", t => {
                 data: {
                     address: ".address",
                     suburb: {
-                        selector: ".city",
                         closest: "table",
                         convert(html, $node) {
-                            return $node.find(".city").text();
+                            return $node.find("thead .city").text();
                         }
                     }
                 }
