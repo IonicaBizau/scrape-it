@@ -37,6 +37,9 @@ Scrapes the data in the provided element.
          - `closest` (String): If provided, returns the first ancestor of
            the given element.
          - `eq` (Number): If provided, it will select the *nth* element.
+         - `texteq` (Number): If provided, it will select the *nth* direct text child.
+           Deep text child selection is not possible yet.
+           Overwrites the `how` key.
          - `listItem` (Object): An object, keeping the recursive schema of
            the `listItem` object. This can be used to create nested lists.
 

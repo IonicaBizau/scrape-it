@@ -135,6 +135,39 @@ tester.describe("scrape-it", t => {
         });
     });
 
+    t.it("text nodes", cb => {
+        scrapeIt(URL, {
+            line0: {
+                selector: ".textnodes",
+                texteq: 0
+            },
+            line1: {
+                selector: ".textnodes",
+                texteq: 1
+            }
+        }, (err, page) => {
+            t.expect(err).toBe(null);
+            t.expect(page).toEqual({
+                line0: "Line0",
+                line1: "Line1"
+            });
+            cb();
+        });
+    });
+
+    t.it("only direct text nodes", cb => {
+        scrapeIt(URL, {
+            deep_line: {
+                selector: ".deep-textnodes",
+                texteq: 2
+            }
+        }, err => {
+            t.expect(err).toExist();
+            t.expect(err.toString()).toMatch(/not found/);
+            cb();
+        });
+    });
+
     t.it("end", () => {
         process.exit();
     });
