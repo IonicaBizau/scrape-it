@@ -17,6 +17,9 @@
     "test": "node test"
   },
   "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
+  "contributors": [
+    "ComFreek <comfreek@outlook.com> (https://github.com/ComFreek)"
+  ],
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/IonicaBizau/scrape-it.git"
