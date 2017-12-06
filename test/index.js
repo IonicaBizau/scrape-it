@@ -161,9 +161,11 @@ tester.describe("scrape-it", t => {
                 selector: ".deep-textnodes",
                 texteq: 2
             }
-        }, err => {
-            t.expect(err).toExist();
-            t.expect(err.toString()).toMatch(/not found/);
+        }, (err, page) => {
+            t.expect(err).toBe(null);
+            t.expect(page).toEqual({
+                deep_line: ""
+            });
             cb();
         });
     });
