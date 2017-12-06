@@ -159,6 +159,9 @@ Scrapes the data in the provided element.
          - `closest` (String): If provided, returns the first ancestor of
            the given element.
          - `eq` (Number): If provided, it will select the *nth* element.
+         - `texteq` (Number): If provided, it will select the *nth* direct text child.
+           Deep text child selection is not possible yet.
+           Overwrites the `how` key.
          - `listItem` (Object): An object, keeping the recursive schema of
            the `listItem` object. This can be used to create nested lists.
 
@@ -243,6 +246,7 @@ If you are using this library in one of your projects, add it in this list. :spa
  - [`cevo-lookup`](https://npmjs.com/package/cevo-lookup) (by Zack Boehm)—Searchs the CEVO Suspension List for bans by SteamID
  - [`codementor`](https://github.com/IonicaBizau/codementor#readme)—A scraper for codementor.io.
  - [`degusta-scrapper`](https://github.com/yohendry/degusta-scrapper#readme) (by yohendry hurtado)—desgusta scrapper for alexa skill
+ - [`dncli`](https://npmjs.com/package/dncli) (by Edgard Kozlowski)—CLI to browse designernews.co
  - [`do-fn`](https://github.com/selfrefactor/do-fn#readme) (by selfrefactor)—common functions used by I Learn Smarter project
  - [`jishon`](https://github.com/chee/jishon#readme) (by chee)—take a search term and get json from jisho
  - [`mit-ocw-scraper`](https://npmjs.com/package/mit-ocw-scraper)—MIT-OCW-Scraper
