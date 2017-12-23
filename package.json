@@ -13,6 +13,7 @@
   "license": "MIT",
   "version": "4.1.1",
   "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "node test"
   },
@@ -42,6 +43,7 @@
     "typpy": "^2.3.9"
   },
   "devDependencies": {
+    "@types/cheerio": "^0.22.6",
     "lien": "^1.0.1",
     "tester": "^1.4.1"
   },
