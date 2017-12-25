@@ -12,7 +12,11 @@
 ## :cloud: Installation
 
 ```sh
-$ npm i --save scrape-it
+# Using npm
+npm install --save scrape-it
+
+# Using yarn
+yarn add scrape-it
 ```
 
 
