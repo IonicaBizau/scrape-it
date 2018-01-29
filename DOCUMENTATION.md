@@ -12,7 +12,11 @@ A scraping module for humans.
 - **Function** `cb`: The callback function.
 
 #### Return
-- **Promise** A promise object.
+- **Promise** A promise object resolving with:
+  - `data` (Object): The scraped data.
+  - `$` (Function): The Cheeerio function. This may be handy to do some other manipulation on the DOM, if needed.
+  - `response` (Object): The response object.
+  - `body` (String): The raw body as a string.
 
 ### `scrapeIt.scrapeHTML($, opts)`
 Scrapes the data in the provided element.
