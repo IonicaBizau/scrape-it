@@ -8,7 +8,7 @@ const username = "emanuelacolta"
 scrapeIt(`https://twitter.com/${username}`, {
     name: ".ProfileHeaderCard-nameLink"
   , bio: ".ProfileHeaderCard-bio"
-}).then(console.log).catch(console.error)
+}).then(({ data }) => console.log(data)).catch(console.error)
 // =>
 // { name: 'Emanuela Colta',
 //   bio: 'Junior Full-Stack Web Developer | ...' }

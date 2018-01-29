@@ -23,9 +23,9 @@ tester.describe("scrape-it", t => {
                 selector: ".date"
               , convert: x => new Date(x)
             }
-        }, (err, page) => {
+        }, (err, { data }) => {
             t.expect(err).toBe(null);
-            t.expect(page).toEqual({
+            t.expect(data).toEqual({
                 title: "Title"
               , description: "Lorem ipsum"
               , date: new Date("1988-01-01")
@@ -38,9 +38,9 @@ tester.describe("scrape-it", t => {
             features: {
                 listItem: ".features > li"
             }
-        }, (err, page) => {
+        }, (err, { data }) => {
             t.expect(err).toBe(null);
-            t.expect(page).toEqual({
+            t.expect(data).toEqual({
                 features: [
                     "1"
                   , "2"
@@ -58,8 +58,8 @@ tester.describe("scrape-it", t => {
             features: {
                 listItem: ".features > li"
             }
-        }).then(page => {
-            t.expect(page).toEqual({
+        }).then(({ data }) => {
+            t.expect(data).toEqual({
                 features: [
                     "1"
                   , "2"
@@ -94,8 +94,8 @@ tester.describe("scrape-it", t => {
                     }
                 }
             }
-        }, (err, page) => {
-            t.expect(page).toEqual({
+        }, (err, { data }) => {
+            t.expect(data).toEqual({
                 nested: {
                     foo: {
                         level1: {
@@ -123,9 +123,9 @@ tester.describe("scrape-it", t => {
                     }
                 }
             }
-        }, (err, page) => {
+        }, (err, { data }) => {
             t.expect(err).toBe(null);
-            t.expect(page).toEqual({
+            t.expect(data).toEqual({
                 addresses: [
                     { address: "one way street", suburb: "Sydney" },
                     { address: "GT Road", suburb: "Sydney" }
@@ -145,9 +145,9 @@ tester.describe("scrape-it", t => {
                 selector: ".textnodes",
                 texteq: 1
             }
-        }, (err, page) => {
+        }, (err, { data }) => {
             t.expect(err).toBe(null);
-            t.expect(page).toEqual({
+            t.expect(data).toEqual({
                 line0: "Line0",
                 line1: "Line1"
             });
@@ -161,9 +161,9 @@ tester.describe("scrape-it", t => {
                 selector: ".deep-textnodes",
                 texteq: 2
             }
-        }, (err, page) => {
+        }, (err, { data }) => {
             t.expect(err).toBe(null);
-            t.expect(page).toEqual({
+            t.expect(data).toEqual({
                 deep_line: ""
             });
             cb();
