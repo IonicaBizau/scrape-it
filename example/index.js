@@ -10,8 +10,9 @@ scrapeIt("https://ionicabizau.net", {
         selector: ".header img"
       , attr: "src"
     }
-}).then(page => {
-    console.log(page)
+}).then(({ data, response }) => {
+    console.log(`Status Code: ${response.statusCode}`)
+    console.log(data)
 })
 
 // Callback interface
@@ -63,8 +64,8 @@ scrapeIt("https://ionicabizau.net", {
         selector: ".header img"
       , attr: "src"
     }
-}, (err, page) => {
-    console.log(err || page)
+}, (err, { data }) => {
+    console.log(err || data)
 })
 // { articles:
 //    [ { createdAt: Mon Mar 14 2016 00:00:00 GMT+0200 (EET),
