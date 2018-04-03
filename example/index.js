@@ -41,6 +41,11 @@ scrapeIt("https://ionicabizau.net", {
                 selector: ".article-content"
               , how: "html"
             }
+
+            // Get attribute value of root listItem by omitting the selector
+          , classes: {
+                attr: "class"
+            }
         }
     }
 
@@ -71,15 +76,18 @@ scrapeIt("https://ionicabizau.net", {
 //    [ { createdAt: Mon Mar 14 2016 00:00:00 GMT+0200 (EET),
 //        title: 'Pi Day, Raspberry Pi and Command Line',
 //        tags: [Object],
-//        content: '<p>Everyone knows (or should know)...a" alt=""></p>\n' },
+//        content: '<p>Everyone knows (or should know)...a" alt=""></p>\n',
+//        classes: [Object] },
 //      { createdAt: Thu Feb 18 2016 00:00:00 GMT+0200 (EET),
 //        title: 'How I ported Memory Blocks to modern web',
 //        tags: [Object],
-//        content: '<p>Playing computer games is a lot of fun. ...' },
+//        content: '<p>Playing computer games is a lot of fun. ...',
+//        classes: [Object] },
 //      { createdAt: Mon Nov 02 2015 00:00:00 GMT+0200 (EET),
 //        title: 'How to convert JSON to Markdown using json2md',
 //        tags: [Object],
-//        content: '<p>I love and ...' } ],
+//        content: '<p>I love and ...',
+//        classes: [Object] } ],
 //   pages:
 //    [ { title: 'Blog', url: '/' },
 //      { title: 'About', url: '/about' },
