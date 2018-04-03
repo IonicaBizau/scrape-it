@@ -19,9 +19,17 @@ declare namespace scrapeIt {
         data: ScrapeOptions;
     }
 
+    export interface ScrapeResult<T> {
+        data: T,
+        $: Cheerio,
+        response: any,
+        body: string
+    }
+
     export function scrapeHTML<T>(body: CheerioStatic | string, options: ScrapeOptions): T;
 }
 
-declare function scrapeIt<T>(url: string | object, opts: scrapeIt.ScrapeOptions): Promise<T>;
-declare function scrapeIt<T>(url: string | object, opts: scrapeIt.ScrapeOptions, cb: (err: any, res: T) => void): void;
+declare function scrapeIt<T>(url: string | object, opts: scrapeIt.ScrapeOptions): Promise<ScrapeResult<T>>;
+
+declare function scrapeIt<T>(url: string | object, opts: scrapeIt.ScrapeOptions, cb: (err: any, res: ScrapeResult<T>) => void): void;
 export = scrapeIt;
