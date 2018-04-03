@@ -111,8 +111,8 @@ scrapeIt("https://ionicabizau.net", {
 //      { createdAt: Mon Nov 02 2015 00:00:00 GMT+0200 (EET),
 //        title: 'How to convert JSON to Markdown using json2md',
 //        tags: [Object],
-//        content: '<p>I love and ...' },
-//        classes: [Object] ],
+//        content: '<p>I love and ...',
+//        classes: [Object] } ],
 //   pages:
 //    [ { title: 'Blog', url: '/' },
 //      { title: 'About', url: '/about' },
@@ -285,6 +285,7 @@ If you are using this library in one of your projects, add it in this list. :spa
  - [`scrape-vinmonopolet`](https://npmjs.com/package/scrape-vinmonopolet)—
  - [`selfrefactor`](https://github.com/selfrefactor/selfrefactor#readme) (by selfrefactor)—common functions used by I Learn Smarter project
  - [`sgdq-collector`](https://github.com/bcongdon/sgdq-collector#readme) (by Benjamin Congdon)—Collects Twitch / Donation information and pushes data to Firebase
+ - [`startpage-quick-search`](https://github.com/nitrohorse/startpage-quick-search#readme) (by nitrohorse)—Get the top 10 search results from StartPage.com in your terminal.
  - [`trump-cabinet-picks`](https://github.com/LindaHaviv/trump-cabinet-picks#readme) (by Linda Haviv)—NYT cabinet predictions for Trump admin.
  - [`ubersetzung`](https://github.com/selfrefactor/ubersetzung#readme) (by self_refactor)—translate words with examples from German to English
  - [`ui-studentsearch`](https://github.com/rkkautsar/ui-studentsearch#readme) (by Rakha Kanz Kautsar)—API for majapahit.cs.ui.ac.id/studentsearch
