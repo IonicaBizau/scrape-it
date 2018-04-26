@@ -29,7 +29,7 @@ declare namespace scrapeIt {
     export function scrapeHTML<T>(body: CheerioStatic | string, options: ScrapeOptions): T;
 }
 
-declare function scrapeIt<T>(url: string | object, opts: scrapeIt.ScrapeOptions): Promise<ScrapeResult<T>>;
+declare function scrapeIt<T>(url: string | object, opts: scrapeIt.ScrapeOptions): Promise<scrapeIt.ScrapeResult<T>>;
 
-declare function scrapeIt<T>(url: string | object, opts: scrapeIt.ScrapeOptions, cb: (err: any, res: ScrapeResult<T>) => void): void;
+declare function scrapeIt<T>(url: string | object, opts: scrapeIt.ScrapeOptions, cb: (err: any, res: scrapeIt.ScrapeResult<T>) => void): void;
 export = scrapeIt;
