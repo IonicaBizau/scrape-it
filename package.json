@@ -11,7 +11,7 @@
     "humans"
   ],
   "license": "MIT",
-  "version": "5.0.4",
+  "version": "5.0.5",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -30,7 +30,8 @@
   },
   "homepage": "https://github.com/IonicaBizau/scrape-it#readme",
   "blah": {
-    "h_img": "https://i.imgur.com/j3Z0rbN.png"
+    "h_img": "https://i.imgur.com/j3Z0rbN.png",
+    "cli": "scrape-it-cli"
   },
   "dependencies": {
     "assured": "^1.0.10",
