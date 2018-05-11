@@ -20,6 +20,8 @@ yarn add scrape-it
 ```
 
 
+:bulb: **ProTip**: You can install the [cli version of this module](http://github.com/IonicaBizau/scrape-it-cli) by running `npm install --global scrape-it-cli` (or `yarn global add scrape-it-cli`).
+
 ## :clipboard: Example
 
 
@@ -281,6 +283,7 @@ If you are using this library in one of your projects, add it in this list. :spa
  - [`rs-api`](https://github.com/oalx/rs-api#readme) (by Alex Kempf)—Simple wrapper for RuneScape APIs written in node.
  - [`sahibinden`](https://npmjs.com/package/sahibinden) (by Cagatay Cali)—Simple sahibinden.com bot
  - [`sahibindenServer`](https://npmjs.com/package/sahibindenServer) (by Cagatay Cali)—Simple sahibinden.com bot server side
+ - [`scrape-it-cli`](https://github.com/IonicaBizau/scrape-it-cli#readme)—CLI for scrape-it. A Node.js scraper for humans. :rocket:
  - [`scrape-vinmonopolet`](https://npmjs.com/package/scrape-vinmonopolet)—
  - [`selfrefactor`](https://github.com/selfrefactor/selfrefactor#readme) (by selfrefactor)—common functions used by I Learn Smarter project
  - [`sgdq-collector`](https://github.com/bcongdon/sgdq-collector#readme) (by Benjamin Congdon)—Collects Twitch / Donation information and pushes data to Firebase
