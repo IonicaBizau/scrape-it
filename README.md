@@ -22,6 +22,32 @@ yarn add scrape-it
 
 :bulb: **ProTip**: You can install the [cli version of this module](http://github.com/IonicaBizau/scrape-it-cli) by running `npm install --global scrape-it-cli` (or `yarn global add scrape-it-cli`).
 
+## FAQ
+
+
+Here are some frequent questions and their answers.
+
+### 1. How to parse scrape pages?
+
+
+`scrape-it` has only a simple request module for making requests. That means you cannot directly parse ajax pages with it, but in general you will have those scenarios:
+
+
+ 1. **The ajax response is in JSON format.** In this case, you can make the request directly, without needing a scraping library.
+ 2. **The ajax response gives you HTML back.** Instead of calling the main website (e.g. example.com), pass to `scrape-it` the ajax url (e.g. `example.com/api/that-endpoint`) and you will you will be able to parse the response
+ 3. **The ajax request is so complicated that you don't want to reverse-engineer it.** In this case, use a headless browser (e.g. Google Chrome, Electron, PhantomJS) to load the content and then use the `.scrapeHTML` method from scrape it once you get the HTML loaded on the page.
+
+### 2. Crawling
+
+
+There is no fancy way to crawl pages with `scrape-it`. For simple scenarios, you can parse the list of urls from the initial page and then, using Promises, parse each page. Also, you can use a different crawler to download the website and then use the `.scrapeHTML` method to scrape the local files.
+
+### 3. Local files
+
+
+Use the `.scrapeHTML` to parse the HTML read from the local files using `fs.readFile`.
+
+
 ## :clipboard: Example
 
 

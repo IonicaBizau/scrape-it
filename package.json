@@ -32,7 +32,7 @@
   "blah": {
     "h_img": "https://i.imgur.com/j3Z0rbN.png",
     "cli": "scrape-it-cli",
-    "after_installation": [
+    "installation": [
         { "h2": "FAQ" },
         { "p": "Here are some frequent questions and their answers." },
         { "h3": "1. How to parse scrape pages?" },
