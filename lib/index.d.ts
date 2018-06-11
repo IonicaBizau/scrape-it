@@ -14,9 +14,14 @@ declare namespace scrapeIt {
         texteq?: number;
     }
 
-    export interface ScrapeOptionList {
+    export interface ScrapeOptionListWithData {
         listItem: string;
         data: ScrapeOptions;
+    }
+
+    export interface ScrapeOptionListWithConvert {
+        listItem: string;
+        convert?: (value: any) => any;
     }
 
     export interface ScrapeResult<T> {
