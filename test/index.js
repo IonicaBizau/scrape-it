@@ -53,6 +53,20 @@ tester.describe("scrape-it", t => {
             cb();
         });
     });
+    t.it("scrape and convert lists", cb => {
+        scrapeIt(URL, {
+            features: {
+                listItem: ".features > li",
+                convert: x => parseInt(x, 10)
+            }
+        }, (err, { data }) => {
+            t.expect(err).toBe(null);
+            t.expect(data).toEqual({
+                features: [1, 2, 3, 4, 5, 6]
+            });
+            cb();
+        });
+    });
     t.it("promise version", cb => {
         scrapeIt(URL, {
             features: {
