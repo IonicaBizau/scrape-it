@@ -267,7 +267,7 @@ Have an idea? Found a bug? See [how to contribute][contributing].
 
 ## :sparkling_heart: Support my projects
 
-I open-source almost everything I can, and I try to reply everyone needing help using these projects. Obviously,
+I open-source almost everything I can, and I try to reply to everyone needing help using these projects. Obviously,
 this takes time. You can integrate and use these projects in your applications *for free*! You can even change the source code and redistribute (even resell it).
 
 However, if you get some profit from this or just want to encourage me to continue creating stuff, there are few ways you can do it:
@@ -297,9 +297,11 @@ If you are using this library in one of your projects, add it in this list. :spa
  - [`degusta-scrapper`](https://github.com/yohendry/degusta-scrapper#readme) (by yohendry hurtado)—desgusta scrapper for alexa skill
  - [`dncli`](https://npmjs.com/package/dncli) (by Edgard Kozlowski)—CLI to browse designernews.co
  - [`do-fn`](https://github.com/selfrefactor/do-fn#readme) (by selfrefactor)—common functions used by I Learn Smarter project
- - [`egg-crawler`](https://github.com/aa900031/egg-crawler#readme) (by zhong666)—[![NPM version][npm-image]][npm-url] [![build status][travis-image]][travis-url] [![Test coverage][codecov-image]][codecov-url] [![David deps][david-image]][david-url] [![Known Vulnerabilities][snyk-image]][snyk-url] [![npm download][download-image]][down
- - [`ehentai-sdk`](https://npmjs.com/package/ehentai-sdk) (by zhong666)—undefined
+ - [`egg-crawler`](https://gitlab.com/aa900031/egg-crawler#readme) (by zhong666)—Crawler tool for egg.
+ - [`fa.js`](https://github.com/AndrewNeo/fa.js#readme) (by AndrewNeo)—FurAffinity interface for Javascript
+ - [`fmgo-marketdata`](https://npmjs.com/package/fmgo-marketdata) (by Jeremy Moyson)—Flamingo Market Data server
  - [`jishon`](https://github.com/chee/jishon#readme) (by chee)—take a search term and get json from jisho
+ - [`jobs-fetcher`](https://npmjs.com/package/jobs-fetcher)—[![Build Status](https://travis-ci.com/perminder-klair/jobs-fetcher.svg?branch=master)](https://travis-ci.com/perminder-klair/jobs-fetcher)
  - [`mit-ocw-scraper`](https://npmjs.com/package/mit-ocw-scraper)—MIT-OCW-Scraper
  - [`mix-dl`](https://github.com/luandro/mix-dl#readme) (by Luandro)—Download youtube mix for list of artists using youtube-dl.
  - [`paklek-cli`](https://npmjs.com/package/paklek-cli) (by ade yahya)—ade's personal cli
@@ -309,11 +311,12 @@ If you are using this library in one of your projects, add it in this list. :spa
  - [`rs-api`](https://github.com/oalx/rs-api#readme) (by Alex Kempf)—Simple wrapper for RuneScape APIs written in node.
  - [`sahibinden`](https://npmjs.com/package/sahibinden) (by Cagatay Cali)—Simple sahibinden.com bot
  - [`sahibindenServer`](https://npmjs.com/package/sahibindenServer) (by Cagatay Cali)—Simple sahibinden.com bot server side
+ - [`scany`](https://github.com/JimmyBoh/scany#readme) (by Jim Buck)—Easily grab video data from user, channel, playlist, and video URLs!
  - [`scrape-it-cli`](https://github.com/IonicaBizau/scrape-it-cli#readme)—CLI for scrape-it. A Node.js scraper for humans. :rocket:
  - [`scrape-vinmonopolet`](https://npmjs.com/package/scrape-vinmonopolet)—
  - [`selfrefactor`](https://github.com/selfrefactor/selfrefactor#readme) (by selfrefactor)—common functions used by I Learn Smarter project
  - [`sgdq-collector`](https://github.com/bcongdon/sgdq-collector#readme) (by Benjamin Congdon)—Collects Twitch / Donation information and pushes data to Firebase
- - [`startpage-quick-search`](https://github.com/nitrohorse/startpage-quick-search#readme) (by nitrohorse)—Get the top 10 search results from StartPage.com in your terminal.
+ - [`startpage-quick-search`](https://gitlab.com/nitrohorse/startpage-quick-search#README) (by Andreas Basurto)—Get the top 10 search results from StartPage.com in your terminal.
  - [`trump-cabinet-picks`](https://github.com/LindaHaviv/trump-cabinet-picks#readme) (by Linda Haviv)—NYT cabinet predictions for Trump admin.
  - [`ubersetzung`](https://github.com/selfrefactor/ubersetzung#readme) (by self_refactor)—translate words with examples from German to English
  - [`ui-studentsearch`](https://github.com/rkkautsar/ui-studentsearch#readme) (by Rakha Kanz Kautsar)—API for majapahit.cs.ui.ac.id/studentsearch
