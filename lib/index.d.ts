@@ -12,12 +12,10 @@ declare namespace scrapeIt {
         closest?: string;
         eq?: number;
         texteq?: number;
-        name?: string;
     }
 
     export interface ScrapeOptionList {
         listItem: string;
-        name?: string;
         data?: ScrapeOptions;
         convert?: (value: any) => any;
     }
