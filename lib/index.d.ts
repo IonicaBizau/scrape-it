@@ -1,6 +1,6 @@
 declare namespace scrapeIt {
     export interface ScrapeOptions {
-        [key: string]: string | ScrapeOptionListWithData | ScrapeOptionListWithConvert | ScrapeOptionElement;
+        [key: string]: string | ScrapeOptionList | ScrapeOptionElement;
     }
 
     export interface ScrapeOptionElement {
@@ -12,15 +12,13 @@ declare namespace scrapeIt {
         closest?: string;
         eq?: number;
         texteq?: number;
+        name?: string;
     }
 
-    export interface ScrapeOptionListWithData {
+    export interface ScrapeOptionList {
         listItem: string;
-        data: ScrapeOptions;
-    }
-
-    export interface ScrapeOptionListWithConvert {
-        listItem: string;
+        name?: string;
+        data?: ScrapeOptions;
         convert?: (value: any) => any;
     }
 
