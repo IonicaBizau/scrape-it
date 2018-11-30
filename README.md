@@ -289,7 +289,7 @@ If you are using this library in one of your projects, add it in this list. :spa
 
  - [`3abn`](https://github.com/IonicaBizau/3abn#readme)—A 3ABN radio client in the terminal.
  - [`bandcamp-scraper`](https://github.com/masterT/bandcamp-scraper) (by Simon Thiboutôt)—A scraper for https://bandcamp.com
- - [`blankningsregistret`](https://npmjs.com/package/blankningsregistret) (by tornilssonohrn@gmail.com)—>FI will on a daily basis, normally shortly after 15:30, publish significant net short positions in shares in the document below. [source](http://www.fi.se/en/our-registers/short-selling/)
+ - [`blankningsregistret`](https://github.com/finsyn/blankningsregistret-js#readme) (by tornilssonohrn@gmail.com)—>FI will on a daily basis, normally shortly after 15:30, publish significant net short positions in shares in the document below. [source](http://www.fi.se/en/our-registers/short-selling/)
  - [`blockchain-notifier`](https://npmjs.com/package/blockchain-notifier) (by Sebastián Osorio)—Receive notifications about the actual state of a currency
  - [`camaleon`](https://github.com/juliandavidmr/Camaleon#readme) (by Julian David)—Installable module, available for Linux, Windows and Mac OS. Quickly view information about any exercise available in Udebug and UVA Judge.
  - [`cevo-lookup`](https://npmjs.com/package/cevo-lookup) (by Zack Boehm)—Searchs the CEVO Suspension List for bans by SteamID
@@ -308,10 +308,10 @@ If you are using this library in one of your projects, add it in this list. :spa
  - [`parn`](https://github.com/dsslimshaddy/parn#readme) (by Slim Shady)—It installs hex packages in the elixir app from http://hex.pm.
  - [`picarto-lib`](https://github.com/SpacemannFinn/Picarto-Lib#readme) (by Sochima Nwobia)—Basic Library to make interfacing with picarto easier
  - [`proxylist`](https://github.com/selfrefactor/proxylist#readme) (by self_refactor)—Get free proxy list
+ - [`rayko-tools`](https://npmjs.com/package/rayko-tools) (by Matt Fysh)—Tools to assist development when building rayko apps
  - [`rs-api`](https://github.com/oalx/rs-api#readme) (by Alex Kempf)—Simple wrapper for RuneScape APIs written in node.
  - [`sahibinden`](https://npmjs.com/package/sahibinden) (by Cagatay Cali)—Simple sahibinden.com bot
  - [`sahibindenServer`](https://npmjs.com/package/sahibindenServer) (by Cagatay Cali)—Simple sahibinden.com bot server side
- - [`scany`](https://github.com/JimmyBoh/scany#readme) (by Jim Buck)—Easily grab video data from user, channel, playlist, and video URLs!
  - [`scrape-it-cli`](https://github.com/IonicaBizau/scrape-it-cli#readme)—CLI for scrape-it. A Node.js scraper for humans. :rocket:
  - [`scrape-vinmonopolet`](https://npmjs.com/package/scrape-vinmonopolet)—
  - [`selfrefactor`](https://github.com/selfrefactor/selfrefactor#readme) (by selfrefactor)—common functions used by I Learn Smarter project
@@ -322,6 +322,7 @@ If you are using this library in one of your projects, add it in this list. :spa
  - [`ui-studentsearch`](https://github.com/rkkautsar/ui-studentsearch#readme) (by Rakha Kanz Kautsar)—API for majapahit.cs.ui.ac.id/studentsearch
  - [`university-news-notifier`](https://npmjs.com/package/university-news-notifier) (by Çağatay Çalı)—Have your own open-source university feed notifier..
  - [`uniwue-lernplaetze-scraper`](https://github.com/fnogatz/uniwue-lernplaetze-scraper#readme) (by Falco Nogatz)—Scraper daemon to monitor the occupancy rate of study working spaces in the libraries of the University of Würzburg, Germany.
+ - [`vandalen.rhyme.js`](https://npmjs.com/package/vandalen.rhyme.js) (by Wilfred Springer)—Client for Dutch rhyming dictionairy
 
 ## :scroll: License
 
