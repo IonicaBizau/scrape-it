@@ -68,18 +68,18 @@
     ]
   },
   "dependencies": {
-    "assured": "^1.0.10",
-    "cheerio": "^0.20.0",
-    "cheerio-req": "^1.2.0",
-    "err": "^2.1.8",
-    "is-empty-obj": "^1.0.9",
+    "assured": "^1.0.12",
+    "cheerio": "^0.22.0",
+    "cheerio-req": "^1.2.2",
+    "err": "^2.1.10",
+    "is-empty-obj": "^1.0.10",
     "iterate-object": "^1.3.2",
     "obj-def": "^1.0.6",
-    "typpy": "^2.3.9"
+    "typpy": "^2.3.10"
   },
   "devDependencies": {
-    "@types/cheerio": "^0.22.6",
-    "lien": "^1.0.1",
+    "@types/cheerio": "^0.22.10",
+    "lien": "^3.3.0",
     "tester": "^1.4.1"
   },
   "files": [
