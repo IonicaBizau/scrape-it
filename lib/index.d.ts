@@ -1,6 +1,6 @@
 declare namespace scrapeIt {
     export interface ScrapeOptions {
-        [key: string]: string | ScrapeOptionListWithData | ScrapeOptionListWithConvert | ScrapeOptionElement;
+        [key: string]: string | ScrapeOptionList | ScrapeOptionElement;
     }
 
     export interface ScrapeOptionElement {
