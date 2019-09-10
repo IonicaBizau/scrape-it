@@ -1,3 +1,5 @@
+/// <reference types="cheerio" />
+
 declare namespace scrapeIt {
     export interface ScrapeOptions {
         [key: string]: string | ScrapeOptionList | ScrapeOptionElement;

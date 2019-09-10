@@ -69,6 +69,7 @@
   },
   "dependencies": {
     "assured": "^1.0.13",
+    "@types/cheerio": "^0.22.13",
     "cheerio": "^0.22.0",
     "cheerio-req": "^1.2.3",
     "err": "^2.1.11",
@@ -78,7 +79,6 @@
     "typpy": "^2.3.11"
   },
   "devDependencies": {
-    "@types/cheerio": "^0.22.13",
     "lien": "^3.3.0",
     "tester": "^1.4.4"
   },
