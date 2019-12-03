@@ -21,6 +21,7 @@
 
 A Node.js scraper for humans.
 
+> Want to save time or not using Node.js? Try our [hosted API](https://scrape-it.saasify.sh).
 
 
 
@@ -29,8 +30,6 @@ A Node.js scraper for humans.
 ```sh
 $ npm i scrape-it
 ```
-
-
 
 
 
