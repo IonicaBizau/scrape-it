@@ -21,6 +21,8 @@ A scraping module for humans.
 ### `scrapeIt.scrapeHTML($, opts)`
 Scrapes the data in the provided element.
 
+For the format of the selector, please refer to the [Selectors section of the Cheerio library](https://github.com/cheeriojs/cheerio#-selector-context-root-)
+
 #### Params
 
 - **Cheerio** `$`: The input element.
