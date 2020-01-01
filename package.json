@@ -69,8 +69,8 @@
     ]
   },
   "dependencies": {
-    "assured": "^1.0.13",
-    "@types/cheerio": "^0.22.13",
+    "@types/cheerio": "^0.22.15",
+    "assured": "^1.0.14",
     "cheerio": "^0.22.0",
     "cheerio-req": "^1.2.3",
     "err": "^2.1.11",
