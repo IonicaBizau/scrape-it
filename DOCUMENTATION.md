@@ -6,6 +6,7 @@ You can see below the API reference of this module.
 A scraping module for humans.
 
 #### Params
+
 - **String|Object** `url`: The page url or request options.
 - **Object** `opts`: The options passed to `scrapeHTML` method.
 - **Function** `cb`: The callback function.
@@ -21,6 +22,7 @@ A scraping module for humans.
 Scrapes the data in the provided element.
 
 #### Params
+
 - **Cheerio** `$`: The input element.
 - **Object** `opts`: An object containing the scraping information.
   If you want to scrape a list, you have to use the `listItem` selector:

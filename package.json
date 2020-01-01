@@ -33,6 +33,7 @@
   "blah": {
     "h_img": "https://i.imgur.com/j3Z0rbN.png",
     "cli": "scrape-it-cli",
+    "description": "Want to save time or not using Node.js? Try our [hosted API](https://scrape-it.saasify.sh).",
     "installation": [
       {
         "h2": "FAQ"
