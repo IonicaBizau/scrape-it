@@ -383,9 +383,9 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `proxylist`
  - `mit-ocw-scraper`
  - `beervana-scraper`
- - `bandcamp-scraper`
- - `@tryghost/mg-webscraper`
  - `cnn-market`
+ - `@tryghost/mg-webscraper`
+ - `bandcamp-scraper`
  - `blockchain-notifier`
  - `dncli`
  - `degusta-scrapper`
@@ -411,15 +411,12 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `jobs-fetcher`
  - `fmgo-marketdata`
  - `rayko-tools`
- - `scrape-it-cli`
  - `leximaven`
  - `codinglove-scraper`
  - `vandalen.rhyme.js`
  - `uniwue-lernplaetze-scraper`
- - `blankningsregistret`
  - `spon-market`
  - `macoolka-net-scrape`
- - `beervana-cli`
  - `gatsby-source-bandcamp`
  - `salesforcerelease-parser`
  - `yu-ncov-scrape-dxy`
@@ -430,7 +427,16 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `flamescraper`
  - `covidau`
  - `3abn`
+ - `scrape-it-cli`
  - `codementor`
+ - `u-pull-it-ne-parts-finder`
+ - `blankningsregistret`
+ - `steam-workshop-scraper`
+ - `scrapos-worker`
+ - `growapi`
+ - `node-red-contrib-scrape-it`
+ - `@ben-wormald/bandcamp-scraper`
+ - `bible-scraper`
 
 
 
