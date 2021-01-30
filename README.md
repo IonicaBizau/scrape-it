@@ -433,8 +433,8 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `blankningsregistret`
  - `steam-workshop-scraper`
  - `scrapos-worker`
- - `growapi`
  - `node-red-contrib-scrape-it`
+ - `growapi`
  - `@ben-wormald/bandcamp-scraper`
  - `bible-scraper`
 
