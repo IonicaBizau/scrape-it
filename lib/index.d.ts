@@ -8,7 +8,7 @@ declare namespace scrapeIt {
     export interface ScrapeOptionElement {
         selector?: string;
         convert?: (value: any) => any;
-        how?: string | ((element: CheerioSelector) => any);
+        how?: string | ((element: cheerio.Selector) => any);
         attr?: string;
         trim?: boolean;
         closest?: string;
@@ -24,12 +24,12 @@ declare namespace scrapeIt {
 
     export interface ScrapeResult<T> {
         data: T,
-        $: Cheerio,
+        $: cheerio.Cheerio,
         response: any,
         body: string
     }
 
-    export function scrapeHTML<T>(body: CheerioStatic | string, options: ScrapeOptions): T;
+    export function scrapeHTML<T>(body: cheerio.Root | string, options: ScrapeOptions): T;
 }
 
 declare function scrapeIt<T>(url: string | object, opts: scrapeIt.ScrapeOptions): Promise<scrapeIt.ScrapeResult<T>>;
