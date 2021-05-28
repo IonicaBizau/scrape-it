@@ -69,6 +69,7 @@
     ]
   },
   "dependencies": {
+    "@types/cheerio": "^0.22.29",
     "assured": "^1.0.14",
     "cheerio-req": "^1.2.3",
     "scrape-it-core": "^1.0.0",
