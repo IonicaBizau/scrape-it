@@ -384,8 +384,8 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `mit-ocw-scraper`
  - `beervana-scraper`
  - `cnn-market`
- - `@tryghost/mg-webscraper`
  - `bandcamp-scraper`
+ - `@tryghost/mg-webscraper`
  - `blockchain-notifier`
  - `dncli`
  - `degusta-scrapper`
@@ -422,21 +422,24 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `yu-ncov-scrape-dxy`
  - `rs-api`
  - `startpage-quick-search`
- - `fa.js`
  - `helyesiras`
- - `flamescraper`
  - `covidau`
  - `3abn`
  - `scrape-it-cli`
  - `codementor`
  - `u-pull-it-ne-parts-finder`
  - `blankningsregistret`
- - `steam-workshop-scraper`
  - `scrapos-worker`
- - `node-red-contrib-scrape-it`
- - `growapi`
  - `@ben-wormald/bandcamp-scraper`
  - `bible-scraper`
+ - `flamescraper`
+ - `fa.js`
+ - `growapi`
+ - `node-red-contrib-scrape-it`
+ - `carirs`
+ - `steam-workshop-scraper`
+ - `macoolka-network`
+ - `apixpress`
 
 
 
