@@ -38,8 +38,6 @@
 
 
 
-Want to save time or not using Node.js? Try our [hosted API](https://scrape-it.saasify.sh).
-
 
 
 
@@ -117,93 +115,95 @@ scrapeIt("https://ionicabizau.net", {
         selector: ".header img"
       , attr: "src"
     }
-}).then(({ data, response }) => {
-    console.log(`Status Code: ${response.statusCode}`)
+}).then(({ data, status }) => {
+    console.log(`Status Code: ${status}`)
     console.log(data)
-})
+});
 
-// Callback interface
-scrapeIt("https://ionicabizau.net", {
-    // Fetch the articles
-    articles: {
-        listItem: ".article"
-      , data: {
 
-            // Get the article date and convert it into a Date object
-            createdAt: {
-                selector: ".date"
-              , convert: x => new Date(x)
-            }
+// Async-Await
+(async () => {
+    const { data } = await scrapeIt("https://ionicabizau.net", {
+        // Fetch the articles
+        articles: {
+            listItem: ".article"
+          , data: {
 
-            // Get the title
-          , title: "a.article-title"
+                // Get the article date and convert it into a Date object
+                createdAt: {
+                    selector: ".date"
+                  , convert: x => new Date(x)
+                }
 
-            // Nested list
-          , tags: {
-                listItem: ".tags > span"
-            }
+                // Get the title
+              , title: "a.article-title"
 
-            // Get the content
-          , content: {
-                selector: ".article-content"
-              , how: "html"
-            }
+                // Nested list
+              , tags: {
+                    listItem: ".tags > span"
+                }
 
-            // Get attribute value of root listItem by omitting the selector
-          , classes: {
-                attr: "class"
-            }
-        }
-    }
+                // Get the content
+              , content: {
+                    selector: ".article-content"
+                  , how: "html"
+                }
 
-    // Fetch the blog pages
-  , pages: {
-        listItem: "li.page"
-      , name: "pages"
-      , data: {
-            title: "a"
-          , url: {
-                selector: "a"
-              , attr: "href"
+                // Get attribute value of root listItem by omitting the selector
+              , classes: {
+                    attr: "class"
+                }
             }
         }
-    }
 
-    // Fetch some other data from the page
-  , title: ".header h1"
-  , desc: ".header h2"
-  , avatar: {
-        selector: ".header img"
-      , attr: "src"
-    }
-}, (err, { data }) => {
-    console.log(err || data)
-})
-// { articles:
-//    [ { createdAt: Mon Mar 14 2016 00:00:00 GMT+0200 (EET),
-//        title: 'Pi Day, Raspberry Pi and Command Line',
-//        tags: [Object],
-//        content: '<p>Everyone knows (or should know)...a" alt=""></p>\n',
-//        classes: [Object] },
-//      { createdAt: Thu Feb 18 2016 00:00:00 GMT+0200 (EET),
-//        title: 'How I ported Memory Blocks to modern web',
-//        tags: [Object],
-//        content: '<p>Playing computer games is a lot of fun. ...',
-//        classes: [Object] },
-//      { createdAt: Mon Nov 02 2015 00:00:00 GMT+0200 (EET),
-//        title: 'How to convert JSON to Markdown using json2md',
-//        tags: [Object],
-//        content: '<p>I love and ...',
-//        classes: [Object] } ],
-//   pages:
-//    [ { title: 'Blog', url: '/' },
-//      { title: 'About', url: '/about' },
-//      { title: 'FAQ', url: '/faq' },
-//      { title: 'Training', url: '/training' },
-//      { title: 'Contact', url: '/contact' } ],
-//   title: 'Ionică Bizău',
-//   desc: 'Web Developer,  Linux geek and  Musician',
-//   avatar: '/images/logo.png' }
+        // Fetch the blog pages
+      , pages: {
+            listItem: "li.page"
+          , name: "pages"
+          , data: {
+                title: "a"
+              , url: {
+                    selector: "a"
+                  , attr: "href"
+                }
+            }
+        }
+
+        // Fetch some other data from the page
+      , title: ".header h1"
+      , desc: ".header h2"
+      , avatar: {
+            selector: ".header img"
+          , attr: "src"
+        }
+    })
+    console.log(data)
+    // { articles:
+    //    [ { createdAt: Mon Mar 14 2016 00:00:00 GMT+0200 (EET),
+    //        title: 'Pi Day, Raspberry Pi and Command Line',
+    //        tags: [Object],
+    //        content: '<p>Everyone knows (or should know)...a" alt=""></p>\n',
+    //        classes: [Object] },
+    //      { createdAt: Thu Feb 18 2016 00:00:00 GMT+0200 (EET),
+    //        title: 'How I ported Memory Blocks to modern web',
+    //        tags: [Object],
+    //        content: '<p>Playing computer games is a lot of fun. ...',
+    //        classes: [Object] },
+    //      { createdAt: Mon Nov 02 2015 00:00:00 GMT+0200 (EET),
+    //        title: 'How to convert JSON to Markdown using json2md',
+    //        tags: [Object],
+    //        content: '<p>I love and ...',
+    //        classes: [Object] } ],
+    //   pages:
+    //    [ { title: 'Blog', url: '/' },
+    //      { title: 'About', url: '/about' },
+    //      { title: 'FAQ', url: '/faq' },
+    //      { title: 'Training', url: '/training' },
+    //      { title: 'Contact', url: '/contact' } ],
+    //   title: 'Ionică Bizău',
+    //   desc: 'Web Developer,  Linux geek and  Musician',
+    //   avatar: '/images/logo.png' }
+})()
 ```
 
 
@@ -380,66 +380,71 @@ Thanks! :heart:
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
  - `@web-master/node-web-scraper`
- - `proxylist`
+ - `macoolka-network`
+ - `@tryghost/mg-webscraper`
  - `mit-ocw-scraper`
- - `beervana-scraper`
  - `cnn-market`
  - `bandcamp-scraper`
- - `@tryghost/mg-webscraper`
- - `blockchain-notifier`
- - `dncli`
- - `degusta-scrapper`
- - `trump-cabinet-picks`
- - `cevo-lookup`
- - `camaleon`
- - `scrape-vinmonopolet`
- - `do-fn`
- - `university-news-notifier`
- - `selfrefactor`
- - `parn`
- - `picarto-lib`
- - `mix-dl`
- - `jishon`
- - `sahibinden`
- - `sahibindenServer`
- - `sgdq-collector`
- - `ubersetzung`
- - `ui-studentsearch`
- - `paklek-cli`
- - `egg-crawler`
- - `@thetrg/gibson`
- - `jobs-fetcher`
- - `fmgo-marketdata`
- - `rayko-tools`
- - `leximaven`
- - `codinglove-scraper`
- - `vandalen.rhyme.js`
- - `uniwue-lernplaetze-scraper`
- - `spon-market`
- - `macoolka-net-scrape`
- - `gatsby-source-bandcamp`
- - `salesforcerelease-parser`
- - `yu-ncov-scrape-dxy`
- - `rs-api`
- - `startpage-quick-search`
- - `helyesiras`
- - `covidau`
- - `3abn`
- - `scrape-it-cli`
- - `codementor`
- - `u-pull-it-ne-parts-finder`
- - `blankningsregistret`
  - `scrapos-worker`
- - `@ben-wormald/bandcamp-scraper`
- - `bible-scraper`
- - `flamescraper`
+ - `university-news-notifier`
  - `fa.js`
- - `growapi`
- - `node-red-contrib-scrape-it`
+ - `mix-dl`
+ - `rayko-tools`
+ - `beervana-scraper`
+ - `codinglove-scraper`
+ - `sgdq-collector`
+ - `vandalen.rhyme.js`
+ - `node-red-contrib-getdata-website`
+ - `startpage-quick-search`
+ - `wikitools`
+ - `spon-market`
+ - `fmgo-marketdata`
+ - `gatsby-source-bandcamp`
  - `carirs`
- - `steam-workshop-scraper`
- - `macoolka-network`
+ - `helyesiras`
+ - `3abn`
+ - `cevo-lookup`
+ - `sahibinden`
+ - `dncli`
+ - `flamescraper`
+ - `codementor`
+ - `scrape-it-cli`
+ - `jishon`
+ - `@thetrg/gibson`
+ - `blockchain-notifier`
+ - `camaleon`
+ - `parn`
+ - `@lukekarrys/ebp`
+ - `selfrefactor`
+ - `yu-ncov-scrape-dxy`
+ - `u-pull-it-ne-parts-finder`
  - `apixpress`
+ - `growapi`
+ - `steam-workshop-scraper`
+ - `scrape-vinmonopolet`
+ - `paklek-cli`
+ - `rs-api`
+ - `sahibindenServer`
+ - `salesforcerelease-parser`
+ - `picarto-lib`
+ - `ui-studentsearch`
+ - `macoolka-net-scrape`
+ - `node-red-contrib-scrape-it`
+ - `egg-crawler`
+ - `uniwue-lernplaetze-scraper`
+ - `simple-ai-alpha`
+ - `ubersetzung`
+ - `blankningsregistret`
+ - `do-fn`
+ - `bible-scraper`
+ - `covidau`
+ - `jobs-fetcher`
+ - `trump-cabinet-picks`
+ - `leximaven`
+ - `proxylist`
+ - `@ben-wormald/bandcamp-scraper`
+ - `degusta-scrapper`
+ - `nurlresolver`
 
 
 
