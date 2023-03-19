@@ -24,8 +24,9 @@ declare namespace scrapeIt {
 
     export interface ScrapeResult<T> {
         data: T,
+        status: number,
+        statusText: string,
         $: cheerio.Cheerio,
-        response: any,
         body: string
     }
 
