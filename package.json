@@ -33,7 +33,6 @@
   "blah": {
     "h_img": "https://i.imgur.com/j3Z0rbN.png",
     "cli": "scrape-it-cli",
-    "description": "",
     "installation": [
       {
         "h2": "FAQ"
