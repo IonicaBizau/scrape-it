@@ -11,7 +11,7 @@
     "humans"
   ],
   "license": "MIT",
-  "version": "5.4.0",
+  "version": "6.0.0",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -69,14 +69,14 @@
     ]
   },
   "dependencies": {
-    "@types/cheerio": "^0.22.29",
+    "@types/cheerio": "^0.22.31",
     "assured": "^1.0.15",
-    "cheerio-req": "^1.2.4",
+    "cheerio-req": "^2.0.0",
     "scrape-it-core": "^1.0.0",
     "typpy": "^2.3.13"
   },
   "devDependencies": {
-    "lien": "^3.3.1",
+    "lien": "^3.4.2",
     "tester": "^1.4.5"
   },
   "files": [
