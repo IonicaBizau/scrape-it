@@ -15,59 +15,55 @@ tester.describe("scrape-it", t => {
           , public: `${__dirname}/public`
         }).on("load", cb);
     });
-    t.it("scrape simple data", cb => {
-        scrapeIt(URL, {
+
+    t.it("scrape simple data", async cb => {
+        const { data } = await scrapeIt(URL, {
             title: "h1.title"
           , description: ".description"
           , date: {
                 selector: ".date"
               , convert: x => new Date(x)
             }
-        }, (err, { data }) => {
-            t.expect(err).toBe(null);
-            t.expect(data).toEqual({
-                title: "Title"
-              , description: "Lorem ipsum"
-              , date: new Date("1988-01-01")
-            });
-            cb();
+        })
+        t.expect(data).toEqual({
+            title: "Title"
+          , description: "Lorem ipsum"
+          , date: new Date("1988-01-01")
         });
+        cb();
     });
-    t.it("scrape lists", cb => {
-        scrapeIt(URL, {
+
+    t.it("scrape lists", async cb => {
+        const { data } = await scrapeIt(URL, {
             features: {
                 listItem: ".features > li"
             }
-        }, (err, { data }) => {
-            t.expect(err).toBe(null);
-            t.expect(data).toEqual({
-                features: [
-                    "1"
-                  , "2"
-                  , "3"
-                  , "4"
-                  , "5"
-                  , "6"
-                ]
-            });
-            cb();
+        })
+        t.expect(data).toEqual({
+            features: [
+                "1"
+              , "2"
+              , "3"
+              , "4"
+              , "5"
+              , "6"
+            ]
         });
+        cb();
     });
-    t.it("scrape and convert lists", cb => {
-        scrapeIt(URL, {
+    t.it("scrape and convert lists", async cb => {
+        const { data } = await scrapeIt(URL, {
             features: {
                 listItem: ".features > li",
                 convert: x => parseInt(x, 10)
             }
-        }, (err, { data }) => {
-            t.expect(err).toBe(null);
-            t.expect(data).toEqual({
-                features: [1, 2, 3, 4, 5, 6]
-            });
-            cb();
+        })
+        t.expect(data).toEqual({
+            features: [1, 2, 3, 4, 5, 6]
         });
+        cb();
     });
-    t.it("promise version", cb => {
+    t.it("promise version", async cb => {
         scrapeIt(URL, {
             features: {
                 listItem: ".features > li"
@@ -86,8 +82,8 @@ tester.describe("scrape-it", t => {
             cb();
         });
     });
-    t.it("nested objects", cb => {
-        scrapeIt(URL, {
+    t.it("nested objects", async cb => {
+        const { data } = await scrapeIt(URL, {
             nested: {
                 selector: ".nested"
               , data: {
@@ -108,23 +104,22 @@ tester.describe("scrape-it", t => {
                     }
                 }
             }
-        }, (err, { data }) => {
-            t.expect(data).toEqual({
-                nested: {
-                    foo: {
-                        level1: {
-                            level2: "2"
-                        }
-                      , level2Text: "2"
-                      , level1Text: "Foo12"
+        })
+        t.expect(data).toEqual({
+            nested: {
+                foo: {
+                    level1: {
+                        level2: "2"
                     }
+                  , level2Text: "2"
+                  , level1Text: "Foo12"
                 }
-            });
-            cb();
+            }
         });
+        cb();
     });
-    t.it("closet sample", cb => {
-        scrapeIt(URL, {
+    t.it("closest sample", async cb => {
+        const { data } = await scrapeIt(URL, {
             addresses: {
                 listItem: "table tbody tr",
                 data: {
@@ -137,20 +132,18 @@ tester.describe("scrape-it", t => {
                     }
                 }
             }
-        }, (err, { data }) => {
-            t.expect(err).toBe(null);
-            t.expect(data).toEqual({
-                addresses: [
-                    { address: "one way street", suburb: "Sydney" },
-                    { address: "GT Road", suburb: "Sydney" }
-                ]
-            });
-            cb();
+        })
+        t.expect(data).toEqual({
+            addresses: [
+                { address: "one way street", suburb: "Sydney" },
+                { address: "GT Road", suburb: "Sydney" }
+            ]
         });
+        cb();
     });
 
-    t.it("text nodes", cb => {
-        scrapeIt(URL, {
+    t.it("text nodes", async cb => {
+        const { data } = await scrapeIt(URL, {
             line0: {
                 selector: ".textnodes",
                 texteq: 0
@@ -159,29 +152,25 @@ tester.describe("scrape-it", t => {
                 selector: ".textnodes",
                 texteq: 1
             }
-        }, (err, { data }) => {
-            t.expect(err).toBe(null);
-            t.expect(data).toEqual({
-                line0: "Line0",
-                line1: "Line1"
-            });
-            cb();
+        })
+        t.expect(data).toEqual({
+            line0: "Line0",
+            line1: "Line1"
         });
+        cb();
     });
 
-    t.it("only direct text nodes", cb => {
-        scrapeIt(URL, {
+    t.it("only direct text nodes", async cb => {
+        const { data } = await scrapeIt(URL, {
             deep_line: {
                 selector: ".deep-textnodes",
                 texteq: 2
             }
-        }, (err, { data }) => {
-            t.expect(err).toBe(null);
-            t.expect(data).toEqual({
-                deep_line: ""
-            });
-            cb();
+        })
+        t.expect(data).toEqual({
+            deep_line: ""
         });
+        cb();
     });
 
     t.it("end", () => {
