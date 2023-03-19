@@ -34,5 +34,4 @@ declare namespace scrapeIt {
 
 declare function scrapeIt<T>(url: string | object, opts: scrapeIt.ScrapeOptions): Promise<scrapeIt.ScrapeResult<T>>;
 
-declare function scrapeIt<T>(url: string | object, opts: scrapeIt.ScrapeOptions, cb: (err: any, res: scrapeIt.ScrapeResult<T>) => void): void;
 export = scrapeIt;
