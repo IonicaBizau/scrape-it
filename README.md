@@ -68,6 +68,15 @@ yarn add scrape-it
 
 
 
+----
+
+<p align="center">
+Sponsored by
+<br/><br/>
+<a href="https://serpapi.com"><img src="https://i.imgur.com/0Pk6Ysp.png" width="300" /></a>
+</p>
+
+----
 ## FAQ
 
 
@@ -395,6 +404,7 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `sgdq-collector`
  - `vandalen.rhyme.js`
  - `node-red-contrib-getdata-website`
+ - `brave-search-scraper`
  - `startpage-quick-search`
  - `wikitools`
  - `spon-market`
@@ -415,12 +425,10 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `camaleon`
  - `parn`
  - `@lukekarrys/ebp`
- - `selfrefactor`
  - `yu-ncov-scrape-dxy`
  - `u-pull-it-ne-parts-finder`
  - `apixpress`
  - `growapi`
- - `steam-workshop-scraper`
  - `scrape-vinmonopolet`
  - `paklek-cli`
  - `rs-api`
@@ -430,20 +438,21 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `ui-studentsearch`
  - `macoolka-net-scrape`
  - `node-red-contrib-scrape-it`
- - `egg-crawler`
- - `uniwue-lernplaetze-scraper`
- - `simple-ai-alpha`
- - `ubersetzung`
- - `blankningsregistret`
- - `do-fn`
- - `bible-scraper`
- - `covidau`
+ - `steam-workshop-scraper`
+ - `mersul-trenurilor`
+ - `@bogochunas/package-shopify-crawler`
  - `jobs-fetcher`
  - `trump-cabinet-picks`
  - `leximaven`
- - `proxylist`
  - `@ben-wormald/bandcamp-scraper`
  - `degusta-scrapper`
+ - `egg-crawler`
+ - `uniwue-lernplaetze-scraper`
+ - `ubersetzung`
+ - `blankningsregistret`
+ - `covidau`
+ - `bible-scraper`
+ - `simple-ai-alpha`
  - `nurlresolver`
 
 
