@@ -28,12 +28,18 @@
 
 
 
-
-
-
 > A Node.js scraper for humans.
 
 
+----
+
+<p align="center">
+Sponsored with :heart: by
+<br/><br/>
+<a href="https://serpapi.com"><img src="https://i.imgur.com/0Pk6Ysp.png" width="200" /></a>
+</p>
+
+----
 
 
 
@@ -68,15 +74,6 @@ yarn add scrape-it
 
 
 
-----
-
-<p align="center">
-Sponsored by
-<br/><br/>
-<a href="https://serpapi.com"><img src="https://i.imgur.com/0Pk6Ysp.png" width="300" /></a>
-</p>
-
-----
 ## FAQ
 
 
