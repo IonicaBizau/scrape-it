@@ -28,7 +28,14 @@
 
 
 
+
+
+
 > A Node.js scraper for humans.
+
+
+
+
 
 
 ----
@@ -40,9 +47,6 @@ Sponsored with :heart: by
 </p>
 
 ----
-
-
-
 
 
 
@@ -448,9 +452,9 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `ubersetzung`
  - `blankningsregistret`
  - `covidau`
- - `bible-scraper`
  - `simple-ai-alpha`
  - `nurlresolver`
+ - `bible-scraper`
 
 
 
