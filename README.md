@@ -41,9 +41,12 @@
 ----
 
 <p align="center">
-Sponsored with :heart: by
+Sponsored with :heart: by:
 <br/><br/>
 <a href="https://serpapi.com"><img src="https://i.imgur.com/0Pk6Ysp.png" width="200" /></a>
+<br/><br/>
+<a href="https://www.capsolver.com/?utm_source=github&utm_medium=scrape-it&utm_campaign=github_banner">Capsolver.com</a> is an AI-powered service that provides automatic captcha solving capabilities. It supports a range of captcha types, including reCAPTCHA, hCaptcha, FunCaptcha, AWS Captcha, Geetest and image captcha. It aims to facilitate seamless web automation by bypassing captcha verifications efficiently.
+<a href="https://www.capsolver.com/?utm_source=github&utm_medium=scrape-it&utm_campaign=github_banner"><img src="https://i.imgur.com/lCngxre.jpeg"/></a>
 </p>
 
 ----
@@ -226,6 +229,7 @@ scrapeIt("https://ionicabizau.net", {
 
 
 
+
 ## :question: Get Help
 
 There are few ways to get help:
@@ -235,6 +239,8 @@ There are few ways to get help:
  1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
  2. For bug reports and feature requests, open issues. :bug:
  3. For direct and quick help, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
+
+
 
 
 
@@ -389,72 +395,72 @@ Thanks! :heart:
 ## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
- - `@web-master/node-web-scraper`
- - `macoolka-network`
+ - `3abn`
+ - `@ben-wormald/bandcamp-scraper`
+ - `@bogochunas/package-shopify-crawler`
+ - `@lukekarrys/ebp`
+ - `@thetrg/gibson`
  - `@tryghost/mg-webscraper`
- - `mit-ocw-scraper`
- - `cnn-market`
+ - `@web-master/node-web-scraper`
+ - `apixpress`
  - `bandcamp-scraper`
- - `scrapos-worker`
- - `university-news-notifier`
- - `fa.js`
- - `mix-dl`
- - `rayko-tools`
  - `beervana-scraper`
- - `codinglove-scraper`
- - `sgdq-collector`
- - `vandalen.rhyme.js`
- - `node-red-contrib-getdata-website`
+ - `bible-scraper`
+ - `blankningsregistret`
+ - `blockchain-notifier`
  - `brave-search-scraper`
- - `startpage-quick-search`
- - `wikitools`
- - `spon-market`
+ - `camaleon`
+ - `carirs`
+ - `cevo-lookup`
+ - `cnn-market`
+ - `codementor`
+ - `codinglove-scraper`
+ - `covidau`
+ - `degusta-scrapper`
+ - `dncli`
+ - `egg-crawler`
+ - `fa.js`
+ - `flamescraper`
  - `fmgo-marketdata`
  - `gatsby-source-bandcamp`
- - `carirs`
- - `helyesiras`
- - `3abn`
- - `cevo-lookup`
- - `sahibinden`
- - `dncli`
- - `flamescraper`
- - `codementor`
- - `scrape-it-cli`
- - `jishon`
- - `@thetrg/gibson`
- - `blockchain-notifier`
- - `camaleon`
- - `parn`
- - `@lukekarrys/ebp`
- - `yu-ncov-scrape-dxy`
- - `u-pull-it-ne-parts-finder`
- - `apixpress`
  - `growapi`
- - `scrape-vinmonopolet`
+ - `helyesiras`
+ - `jishon`
+ - `jobs-fetcher`
+ - `leximaven`
+ - `macoolka-net-scrape`
+ - `macoolka-network`
+ - `mersul-trenurilor`
+ - `mit-ocw-scraper`
+ - `mix-dl`
+ - `node-red-contrib-getdata-website`
+ - `node-red-contrib-scrape-it`
+ - `nurlresolver`
  - `paklek-cli`
+ - `parn`
+ - `picarto-lib`
+ - `rayko-tools`
  - `rs-api`
+ - `sahibinden`
  - `sahibindenServer`
  - `salesforcerelease-parser`
- - `picarto-lib`
- - `ui-studentsearch`
- - `macoolka-net-scrape`
- - `node-red-contrib-scrape-it`
- - `steam-workshop-scraper`
- - `mersul-trenurilor`
- - `@bogochunas/package-shopify-crawler`
- - `jobs-fetcher`
- - `trump-cabinet-picks`
- - `leximaven`
- - `@ben-wormald/bandcamp-scraper`
- - `degusta-scrapper`
- - `egg-crawler`
- - `uniwue-lernplaetze-scraper`
- - `ubersetzung`
- - `blankningsregistret`
- - `covidau`
+ - `scrape-it-cli`
+ - `scrape-vinmonopolet`
+ - `scrapos-worker`
+ - `sgdq-collector`
  - `simple-ai-alpha`
- - `nurlresolver`
- - `bible-scraper`
+ - `spon-market`
+ - `startpage-quick-search`
+ - `steam-workshop-scraper`
+ - `trump-cabinet-picks`
+ - `u-pull-it-ne-parts-finder`
+ - `ubersetzung`
+ - `ui-studentsearch`
+ - `university-news-notifier`
+ - `uniwue-lernplaetze-scraper`
+ - `vandalen.rhyme.js`
+ - `wikitools`
+ - `yu-ncov-scrape-dxy`
 
 
 
