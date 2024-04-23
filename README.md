@@ -46,7 +46,7 @@ Sponsored with :heart: by:
 <a href="https://serpapi.com">Serpapi.com</a> is a platform that allows you to scrape Google and other search engines from our fast, easy, and complete API.<br>
 <a href="https://serpapi.com"><img src="https://i.imgur.com/0Pk6Ysp.png" width="250" /></a>
 <br/><br/>
-<a href="https://capsolver.com/?utm_source=github&utm_medium=github_banner&utm_campaign=scrape-it">Capsolver.com</a> is an AI-powered service that provides automatic captcha solving capabilities. It supports a range of captcha types, including reCAPTCHA, hCaptcha, FunCaptcha, AWS Captcha, Geetest and image captcha. It aims to facilitate seamless web automation by bypassing captcha verifications efficiently.
+[Capsolver.com](https://www.capsolver.com/?utm_source=github&utm_medium=banner_github&utm_campaign=scrape-it) is an AI-powered service that specializes in solving various types of captchas automatically. It supports captchas such as [reCAPTCHA V2](https://docs.capsolver.com/guide/captcha/ReCaptchaV2.html?utm_source=github&utm_medium=banner_github&utm_campaign=scrape-it), [reCAPTCHA V3](https://docs.capsolver.com/guide/captcha/ReCaptchaV3.html?utm_source=github&utm_medium=banner_github&utm_campaign=scrape-it), [hCaptcha](https://docs.capsolver.com/guide/captcha/HCaptcha.html?utm_source=github&utm_medium=banner_github&utm_campaign=scrape-it), [FunCaptcha](https://docs.capsolver.com/guide/captcha/FunCaptcha.html?utm_source=github&utm_medium=banner_github&utm_campaign=scrape-it), [DataDome](https://docs.capsolver.com/guide/captcha/DataDome.html?utm_source=github&utm_medium=banner_github&utm_campaign=scrape-it), [AWS Captcha](https://docs.capsolver.com/guide/captcha/awsWaf.html?utm_source=github&utm_medium=banner_github&utm_campaign=scrape-it), [Geetest](https://docs.capsolver.com/guide/captcha/Geetest.html?utm_source=github&utm_medium=banner_github&utm_campaign=scrape-it), and Cloudflare [Captcha](https://docs.capsolver.com/guide/antibots/cloudflare_turnstile.html?utm_source=github&utm_medium=banner_github&utm_campaign=scrape-it) / [Challenge 5s](https://docs.capsolver.com/guide/antibots/cloudflare_challenge.html?utm_source=github&utm_medium=banner_github&utm_campaign=scrape-it), [Imperva / Incapsula](https://docs.capsolver.com/guide/antibots/imperva.html?utm_source=github&utm_medium=banner_github&utm_campaign=scrape-it), among others. For developers, Capsolver offers API integration options detailed in their [documentation](https://docs.capsolver.com/?utm_source=github&utm_medium=banner_github&utm_campaign=scrape-it), facilitating the integration of captcha solving into applications. They also provide browser extensions for [Chrome](https://chromewebstore.google.com/detail/captcha-solver-auto-captc/pgojnojmmhpofjgdmaebadhbocahppod) and [Firefox](https://addons.mozilla.org/es/firefox/addon/capsolver-captcha-solver/), making it easy to use their service directly within a browser. Different pricing packages are available to accommodate varying needs, ensuring flexibility for users.
 <a href="https://capsolver.com/?utm_source=github&utm_medium=github_banner&utm_campaign=scrape-it"><img src="https://i.imgur.com/lCngxre.jpeg"/></a>
 </p>
 
@@ -403,6 +403,7 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `@thetrg/gibson`
  - `@tryghost/mg-webscraper`
  - `@web-master/node-web-scraper`
+ - `airport-cluj`
  - `apixpress`
  - `bandcamp-scraper`
  - `beervana-scraper`
@@ -431,6 +432,7 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `leximaven`
  - `macoolka-net-scrape`
  - `macoolka-network`
+ - `mersul-microbuzelor`
  - `mersul-trenurilor`
  - `mit-ocw-scraper`
  - `mix-dl`
