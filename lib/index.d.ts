@@ -4,11 +4,11 @@ declare namespace scrapeIt {
     export interface ScrapeOptions {
         [key: string]: string | ScrapeOptionList | ScrapeOptionElement;
     }
-
     export interface ScrapeOptionElement {
         selector?: string;
         convert?: (value: any) => any;
-        how?: string | ((element: cheerio.Selector) => any);
+        // using Cheerio type directly from modules it won't show warning types.
+        how?: string | ((element: Cheerio) => any);
         attr?: string;
         trim?: boolean;
         closest?: string;
@@ -26,11 +26,11 @@ declare namespace scrapeIt {
         data: T,
         status: number,
         statusText: string,
-        $: cheerio.Cheerio,
+        $: Cheerio,
         body: string
     }
 
-    export function scrapeHTML<T>(body: cheerio.Root | string, options: ScrapeOptions): T;
+    export function scrapeHTML<T>(body: Cheerio | string, options: ScrapeOptions): T;
 }
 
 declare function scrapeIt<T>(url: string | object, opts: scrapeIt.ScrapeOptions): Promise<scrapeIt.ScrapeResult<T>>;

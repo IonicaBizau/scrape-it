@@ -20,7 +20,8 @@
   "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "contributors": [
     "ComFreek <comfreek@outlook.com> (https://github.com/ComFreek)",
-    "Jim Buck <jim@jimmyboh.com> (https://github.com/JimmyBoh)"
+    "Jim Buck <jim@jimmyboh.com> (https://github.com/JimmyBoh)",
+    "Non <aomnonpn@gmail.com (https://github.com/fadingNA)"
   ],
   "repository": {
     "type": "git",
@@ -84,15 +85,19 @@
     ]
   },
   "dependencies": {
-    "@types/cheerio": "^0.22.31",
     "assured": "^1.0.15",
+    "cheerio": "^1.0.0",
     "cheerio-req": "^2.0.0",
     "scrape-it-core": "^1.0.0",
     "typpy": "^2.3.13"
   },
   "devDependencies": {
+    "@types/cheerio": "^0.22.35",
+    "@types/node": "^22.7.4",
     "lien": "^3.4.2",
-    "tester": "^1.4.5"
+    "tester": "^1.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
   },
   "files": [
     "bin/",
