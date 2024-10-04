@@ -398,12 +398,15 @@ Thanks! :heart:
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
  - `3abn`
+ - `@alexjorgef/bandcamp-scraper`
  - `@ben-wormald/bandcamp-scraper`
  - `@bogochunas/package-shopify-crawler`
  - `@lukekarrys/ebp`
+ - `@markab.io/node-api`
  - `@thetrg/gibson`
  - `@tryghost/mg-webscraper`
  - `@web-master/node-web-scraper`
+ - `@zougui/furaffinity`
  - `airport-cluj`
  - `apixpress`
  - `bandcamp-scraper`
