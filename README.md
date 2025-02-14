@@ -21,7 +21,7 @@
 
 # scrape-it
 
- [![Support me on Patreon][badge_patreon]][patreon] [![Buy me a book][badge_amazon]][amazon] [![PayPal][badge_paypal_donate]][paypal-donations] [![Ask me anything](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Travis](https://img.shields.io/travis/IonicaBizau/scrape-it.svg)](https://travis-ci.org/IonicaBizau/scrape-it/) [![Version](https://img.shields.io/npm/v/scrape-it.svg)](https://www.npmjs.com/package/scrape-it) [![Downloads](https://img.shields.io/npm/dt/scrape-it.svg)](https://www.npmjs.com/package/scrape-it) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
+ [![Support me on Patreon][badge_patreon]][patreon] [![Buy me a book][badge_amazon]][amazon] [![PayPal][badge_paypal_donate]][paypal-donations] [![Ask me anything](https://img.shields.io/badge/ask%20me-anything-1abc9c.svg)](https://github.com/IonicaBizau/ama) [![Travis](https://img.shields.io/travis/IonicaBizau/scrape-it.svg)](https://travis-ci.org/IonicaBizau/scrape-it/) [![Version](https://img.shields.io/npm/v/scrape-it.svg)](https://www.npmjs.com/package/scrape-it) [![Downloads](https://img.shields.io/npm/dt/scrape-it.svg)](https://www.npmjs.com/package/scrape-it) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/@johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 <a href="https://www.buymeacoffee.com/H96WwChMy" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me A Coffee"></a>
 
@@ -42,6 +42,9 @@
 
 <p align="center">
 Sponsored with :heart: by:
+<br/><br/>
+<a href="https://serpapi.com">Serpapi.com</a> is a platform that allows you to scrape Google and other search engines from our fast, easy, and complete API.<br>
+<a href="https://serpapi.com"><img src="https://i.imgur.com/0Pk6Ysp.png" width="250" /></a>
 <br/><br/>
 
 [Capsolver.com](https://www.capsolver.com/?utm_source=github&utm_medium=banner_github&utm_campaign=scrape-it) is an AI-powered service that specializes in solving various types of captchas automatically. It supports captchas such as [reCAPTCHA V2](https://docs.capsolver.com/guide/captcha/ReCaptchaV2.html?utm_source=github&utm_medium=banner_github&utm_campaign=scrape-it), [reCAPTCHA V3](https://docs.capsolver.com/guide/captcha/ReCaptchaV3.html?utm_source=github&utm_medium=banner_github&utm_campaign=scrape-it), [hCaptcha](https://docs.capsolver.com/guide/captcha/HCaptcha.html?utm_source=github&utm_medium=banner_github&utm_campaign=scrape-it), [FunCaptcha](https://docs.capsolver.com/guide/captcha/FunCaptcha.html?utm_source=github&utm_medium=banner_github&utm_campaign=scrape-it), [DataDome](https://docs.capsolver.com/guide/captcha/DataDome.html?utm_source=github&utm_medium=banner_github&utm_campaign=scrape-it), [AWS Captcha](https://docs.capsolver.com/guide/captcha/awsWaf.html?utm_source=github&utm_medium=banner_github&utm_campaign=scrape-it), [Geetest](https://docs.capsolver.com/guide/captcha/Geetest.html?utm_source=github&utm_medium=banner_github&utm_campaign=scrape-it), and Cloudflare [Captcha](https://docs.capsolver.com/guide/antibots/cloudflare_turnstile.html?utm_source=github&utm_medium=banner_github&utm_campaign=scrape-it) / [Challenge 5s](https://docs.capsolver.com/guide/antibots/cloudflare_challenge.html?utm_source=github&utm_medium=banner_github&utm_campaign=scrape-it), [Imperva / Incapsula](https://docs.capsolver.com/guide/antibots/imperva.html?utm_source=github&utm_medium=banner_github&utm_campaign=scrape-it), among others. For developers, Capsolver offers API integration options detailed in their [documentation](https://docs.capsolver.com/?utm_source=github&utm_medium=banner_github&utm_campaign=scrape-it), facilitating the integration of captcha solving into applications. They also provide browser extensions for [Chrome](https://chromewebstore.google.com/detail/captcha-solver-auto-captc/pgojnojmmhpofjgdmaebadhbocahppod) and [Firefox](https://addons.mozilla.org/es/firefox/addon/capsolver-captcha-solver/), making it easy to use their service directly within a browser. Different pricing packages are available to accommodate varying needs, ensuring flexibility for users.
@@ -388,83 +391,6 @@ Thanks! :heart:
 
 
 
-
-
-
-## :dizzy: Where is this library used?
-If you are using this library in one of your projects, add it in this list. :sparkles:
-
- - `3abn`
- - `@alexjorgef/bandcamp-scraper`
- - `@ben-wormald/bandcamp-scraper`
- - `@bogochunas/package-shopify-crawler`
- - `@lukekarrys/ebp`
- - `@markab.io/node-api`
- - `@thetrg/gibson`
- - `@tryghost/mg-webscraper`
- - `@web-master/node-web-scraper`
- - `@zougui/furaffinity`
- - `airport-cluj`
- - `apixpress`
- - `bandcamp-scraper`
- - `beervana-scraper`
- - `bible-scraper`
- - `blankningsregistret`
- - `blockchain-notifier`
- - `brave-search-scraper`
- - `camaleon`
- - `carirs`
- - `cevo-lookup`
- - `cnn-market`
- - `codementor`
- - `codinglove-scraper`
- - `covidau`
- - `degusta-scrapper`
- - `dncli`
- - `egg-crawler`
- - `fa.js`
- - `flamescraper`
- - `fmgo-marketdata`
- - `gatsby-source-bandcamp`
- - `growapi`
- - `helyesiras`
- - `jishon`
- - `jobs-fetcher`
- - `leximaven`
- - `macoolka-net-scrape`
- - `macoolka-network`
- - `mersul-microbuzelor`
- - `mersul-trenurilor`
- - `mit-ocw-scraper`
- - `mix-dl`
- - `node-red-contrib-getdata-website`
- - `node-red-contrib-scrape-it`
- - `nurlresolver`
- - `paklek-cli`
- - `parn`
- - `picarto-lib`
- - `rayko-tools`
- - `rs-api`
- - `sahibinden`
- - `sahibindenServer`
- - `salesforcerelease-parser`
- - `scrape-it-cli`
- - `scrape-vinmonopolet`
- - `scrapos-worker`
- - `sgdq-collector`
- - `simple-ai-alpha`
- - `spon-market`
- - `startpage-quick-search`
- - `steam-workshop-scraper`
- - `trump-cabinet-picks`
- - `u-pull-it-ne-parts-finder`
- - `ubersetzung`
- - `ui-studentsearch`
- - `university-news-notifier`
- - `uniwue-lernplaetze-scraper`
- - `vandalen.rhyme.js`
- - `wikitools`
- - `yu-ncov-scrape-dxy`
 
 
 
