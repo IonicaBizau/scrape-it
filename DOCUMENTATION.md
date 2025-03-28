@@ -38,7 +38,7 @@ For the format of the selector, please refer to the [Selectors section of the Ch
            value.
          - `attr` (String): If provided, the value will be taken based on
            the attribute name.
-         - `trim` (Boolean): If `false`, the value will *not* be trimmed
+         - `trimValue` (Boolean): If `false`, the value will *not* be trimmed
            (default: `true`).
          - `closest` (String): If provided, returns the first ancestor of
            the given element.
