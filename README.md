@@ -231,23 +231,6 @@ scrapeIt("https://ionicabizau.net", {
 
 
 
-
-## :question: Get Help
-
-There are few ways to get help:
-
-
-
- 1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
- 2. For bug reports and feature requests, open issues. :bug:
- 3. For direct and quick help, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
-
-
-
-
-
-
-
 ## :memo: Documentation
 
 
@@ -287,7 +270,7 @@ For the format of the selector, please refer to the [Selectors section of the Ch
            value.
          - `attr` (String): If provided, the value will be taken based on
            the attribute name.
-         - `trim` (Boolean): If `false`, the value will *not* be trimmed
+         - `trimValue` (Boolean): If `false`, the value will *not* be trimmed
            (default: `true`).
          - `closest` (String): If provided, returns the first ancestor of
            the given element.
@@ -352,6 +335,24 @@ For the format of the selector, please refer to the [Selectors section of the Ch
 
 
 
+## :question: Get Help
+
+There are few ways to get help:
+
+
+
+ 1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
+ 2. For bug reports and feature requests, open issues. :bug:
+ 3. For direct and quick help, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
+
+
+
+
+
+
+
+
+
 
 
 
@@ -391,6 +392,84 @@ Thanks! :heart:
 
 
 
+
+
+
+## :dizzy: Where is this library used?
+If you are using this library in one of your projects, add it in this list. :sparkles:
+
+ - `3abn`
+ - `@alexjorgef/bandcamp-scraper`
+ - `@ben-wormald/bandcamp-scraper`
+ - `@bogochunas/package-shopify-crawler`
+ - `@lukekarrys/ebp`
+ - `@markab.io/node-api`
+ - `@thetrg/gibson`
+ - `@tryghost/mg-webscraper`
+ - `@web-master/node-web-scraper`
+ - `@zougui/furaffinity`
+ - `airport-cluj`
+ - `apixpress`
+ - `bandcamp-scraper`
+ - `beervana-scraper`
+ - `bible-scraper`
+ - `blankningsregistret`
+ - `blockchain-notifier`
+ - `brave-search-scraper`
+ - `camaleon`
+ - `carirs`
+ - `cevo-lookup`
+ - `cnn-market`
+ - `codementor`
+ - `codinglove-scraper`
+ - `covidau`
+ - `degusta-scrapper`
+ - `dncli`
+ - `egg-crawler`
+ - `fa.js`
+ - `flamescraper`
+ - `fmgo-marketdata`
+ - `gatsby-source-bandcamp`
+ - `growapi`
+ - `helyesiras`
+ - `jishon`
+ - `jobs-fetcher`
+ - `leximaven`
+ - `macoolka-net-scrape`
+ - `macoolka-network`
+ - `mersul-microbuzelor`
+ - `mersul-trenurilor`
+ - `mit-ocw-scraper`
+ - `mix-dl`
+ - `node-red-contrib-getdata-website`
+ - `node-red-contrib-scrape-it`
+ - `nurlresolver`
+ - `paklek-cli`
+ - `parn`
+ - `picarto-lib`
+ - `rayko-tools`
+ - `rs-api`
+ - `sahibinden`
+ - `sahibindenServer`
+ - `salesforcerelease-parser`
+ - `scrape-it-cli`
+ - `scrape-vinmonopolet`
+ - `scrapemyferry`
+ - `scrapos-worker`
+ - `sgdq-collector`
+ - `simple-ai-alpha`
+ - `spon-market`
+ - `startpage-quick-search`
+ - `steam-workshop-scraper`
+ - `trump-cabinet-picks`
+ - `u-pull-it-ne-parts-finder`
+ - `ubersetzung`
+ - `ui-studentsearch`
+ - `university-news-notifier`
+ - `uniwue-lernplaetze-scraper`
+ - `vandalen.rhyme.js`
+ - `wikitools`
+ - `yu-ncov-scrape-dxy`
 
 
 
