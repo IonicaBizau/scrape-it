@@ -43,9 +43,25 @@
 <p align="center">
 Sponsored with :heart: by:
 <br/><br/>
-<a href="https://serpapi.com">Serpapi.com</a> is a platform that allows you to scrape Google and other search engines from our fast, easy, and complete API.<br>
-<a href="https://serpapi.com"><img src="https://i.imgur.com/0Pk6Ysp.png" width="250" /></a>
+
+[![scrapeless services](https://assets.scrapeless.com/prod/posts/scrapeless-web-scraping-toolkit/770dae4cc5b004b6d262480625a47225.png)](https://www.scrapeless.com/en?utm_source=scrape-it)
+
+[Scrapeless](http://scrapeless.com/?utm_source=scrape-it) – Easy web scraping toolkit for businesses and developers
+
+⚡ [Scraping Browser](https://www.scrapeless.com/en/product/scraping-browser?utm_source=scrape-it): Cloud-hosted headless browser, integrated with Playwright/Puppeteer, etc. Covering 70 million+ residential IPs worldwide, automatically handling proxy/IP rotation/CAPTCHA/Cloudflare. Easily handle dynamic pages rendered by JS.
+
+⚡ [Deep SerpApi](https://www.scrapeless.com/en/product/deep-serp-api?utm_source=scrape-it): One-click Google search data monitoring, supporting 15+ SERP scenarios such as academic/Google Store/Maps, $0.1/thousand queries, 0.2s response.
+
+⚡ [Scraping API](https://www.scrapeless.com/en/product/scraping-api?utm_source=scrape-it): Easily obtain public content such as TikTok, Shopee, Amazon, Walmart, etc. Covering structured data of 8+ vertical industries such as e-commerce/social media, ready to use. Only billed by the number of successful calls.
+
+⚡ [Universal Scraping API](https://www.scrapeless.com/en/product/universal-scraping-api?utm_source=scrape-it): Intelligent IP rotation + real user fingerprint, success rate up to 99%. No more worrying about network blockades and crawling obstacles.
+
+⚠️ Exclusive for open source projects: Submit the Repo link to apply for 100,000 free Deep SerpApi queries!<br/>
+📌 [Try it now](https://app.scrapeless.com/passport/login?utm_source=scrape-it) | [Documentation](https://docs.scrapeless.com/en/scraping-browser/quickstart/introduction/?utm_source=scrape-it)
+
+
 <br/><br/>
+
 
 [Capsolver.com](https://www.capsolver.com/?utm_source=github&utm_medium=banner_github&utm_campaign=scrape-it) is an AI-powered service that specializes in solving various types of captchas automatically. It supports captchas such as [reCAPTCHA V2](https://docs.capsolver.com/guide/captcha/ReCaptchaV2.html?utm_source=github&utm_medium=banner_github&utm_campaign=scrape-it), [reCAPTCHA V3](https://docs.capsolver.com/guide/captcha/ReCaptchaV3.html?utm_source=github&utm_medium=banner_github&utm_campaign=scrape-it), [hCaptcha](https://docs.capsolver.com/guide/captcha/HCaptcha.html?utm_source=github&utm_medium=banner_github&utm_campaign=scrape-it), [FunCaptcha](https://docs.capsolver.com/guide/captcha/FunCaptcha.html?utm_source=github&utm_medium=banner_github&utm_campaign=scrape-it), [DataDome](https://docs.capsolver.com/guide/captcha/DataDome.html?utm_source=github&utm_medium=banner_github&utm_campaign=scrape-it), [AWS Captcha](https://docs.capsolver.com/guide/captcha/awsWaf.html?utm_source=github&utm_medium=banner_github&utm_campaign=scrape-it), [Geetest](https://docs.capsolver.com/guide/captcha/Geetest.html?utm_source=github&utm_medium=banner_github&utm_campaign=scrape-it), and Cloudflare [Captcha](https://docs.capsolver.com/guide/antibots/cloudflare_turnstile.html?utm_source=github&utm_medium=banner_github&utm_campaign=scrape-it) / [Challenge 5s](https://docs.capsolver.com/guide/antibots/cloudflare_challenge.html?utm_source=github&utm_medium=banner_github&utm_campaign=scrape-it), [Imperva / Incapsula](https://docs.capsolver.com/guide/antibots/imperva.html?utm_source=github&utm_medium=banner_github&utm_campaign=scrape-it), among others. For developers, Capsolver offers API integration options detailed in their [documentation](https://docs.capsolver.com/?utm_source=github&utm_medium=banner_github&utm_campaign=scrape-it), facilitating the integration of captcha solving into applications. They also provide browser extensions for [Chrome](https://chromewebstore.google.com/detail/captcha-solver-auto-captc/pgojnojmmhpofjgdmaebadhbocahppod) and [Firefox](https://addons.mozilla.org/es/firefox/addon/capsolver-captcha-solver/), making it easy to use their service directly within a browser. Different pricing packages are available to accommodate varying needs, ensuring flexibility for users.
 <a href="https://capsolver.com/?utm_source=github&utm_medium=github_banner&utm_campaign=scrape-it"><img src="https://i.imgur.com/lCngxre.jpeg"/></a>
