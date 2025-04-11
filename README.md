@@ -48,6 +48,17 @@ Sponsored with :heart: by:
 
 [Scrapeless](http://scrapeless.com/?utm_source=scrape-it) – Easy web scraping toolkit for businesses and developers
 
+⚡ [Scraping Browser](https://www.scrapeless.com/en/product/scraping-browser?utm_source=scrape-it):
+
+ 1. Web browsing capabilities for AI agents and applications
+    - Collect data at scale for agents without being blocked
+    - Simulate user behavior using advanced browser tools
+    - Build agent applications with real-time and historical web data
+ 2. Unlock any scale with unlimited parallel jobs
+ 3. High-performance web unlocking built directly into the browser
+ 4. Compatible with Puppeteer and Playwright
+
+
 ⚡ [Scraping Browser](https://www.scrapeless.com/en/product/scraping-browser?utm_source=scrape-it): Cloud-hosted headless browser, integrated with Playwright/Puppeteer, etc. Covering 70 million+ residential IPs worldwide, automatically handling proxy/IP rotation/CAPTCHA/Cloudflare. Easily handle dynamic pages rendered by JS.
 
 ⚡ [Deep SerpApi](https://www.scrapeless.com/en/product/deep-serp-api?utm_source=scrape-it): One-click Google search data monitoring, supporting 15+ SERP scenarios such as academic/Google Store/Maps, $0.1/thousand queries, 0.2s response.
