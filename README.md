@@ -58,7 +58,7 @@ Sponsored with :heart: by:
  3. High-performance web unlocking built directly into the browser
  4. Compatible with Puppeteer and Playwright
 
-⚡ [Deep SerpApi](https://www.scrapeless.com/en/product/deep-serp-api?utm_source=scrape-it): One-click Google search data monitoring, supporting 15+ SERP scenarios such as academic/Google Store/Maps, $0.1/thousand queries, 0.2s response.
+⚡ [Deep SerpApi](https://www.scrapeless.com/en/product/deep-serp-api?utm_source=scrape-it): One-click Google search data monitoring, supporting 15+ SERP scenarios such as academic/Google Store/Maps, $0.1/thousand queries, 0.2s response. Recently, Scrapeless has officially launched [MCP Server](https://github.com/scrapeless-ai/scrapeless-mcp-server), which can help large prediction models easily capture the latest data and ensure the accuracy of the results.
 
 ⚡ [Scraping API](https://www.scrapeless.com/en/product/scraping-api?utm_source=scrape-it): Easily obtain public content such as TikTok, Shopee, Amazon, Walmart, etc. Covering structured data of 8+ vertical industries such as e-commerce/social media, ready to use. Only billed by the number of successful calls.
 
