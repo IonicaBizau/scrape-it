@@ -58,9 +58,6 @@ Sponsored with :heart: by:
  3. High-performance web unlocking built directly into the browser
  4. Compatible with Puppeteer and Playwright
 
-
-⚡ [Scraping Browser](https://www.scrapeless.com/en/product/scraping-browser?utm_source=scrape-it): Cloud-hosted headless browser, integrated with Playwright/Puppeteer, etc. Covering 70 million+ residential IPs worldwide, automatically handling proxy/IP rotation/CAPTCHA/Cloudflare. Easily handle dynamic pages rendered by JS.
-
 ⚡ [Deep SerpApi](https://www.scrapeless.com/en/product/deep-serp-api?utm_source=scrape-it): One-click Google search data monitoring, supporting 15+ SERP scenarios such as academic/Google Store/Maps, $0.1/thousand queries, 0.2s response.
 
 ⚡ [Scraping API](https://www.scrapeless.com/en/product/scraping-api?utm_source=scrape-it): Easily obtain public content such as TikTok, Shopee, Amazon, Walmart, etc. Covering structured data of 8+ vertical industries such as e-commerce/social media, ready to use. Only billed by the number of successful calls.
