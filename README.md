@@ -43,7 +43,7 @@
 <p align="center">
 Sponsored with :heart: by:
 <br/><br/>
-[![SerpApi](https://i.imgur.com/JXqpoEE.png)](https://serpapi.com/?utm_source=scrape-it)
+<a href='https://serpapi.com/?utm_source=scrape-it'><img title='SerpApi' src='https://i.imgur.com/JXqpoEE.png'/></a>
 <br/>
 <a href="https://serpapi.com">Serpapi.com</a> is a platform that allows you to scrape Google and other search engines from our fast, easy, and complete API.<br>
 <a href="https://serpapi.com"><img src="https://i.imgur.com/0Pk6Ysp.png" width="250" /></a>
