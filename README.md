@@ -43,11 +43,13 @@
 <p align="center">
 Sponsored with :heart: by:
 <br/><br/>
-<center><h3><a href='https://serpapi.com/?utm_source=scrape-it'>SerpApi.com</a></h3>
-<a href='https://serpapi.com/?utm_source=scrape-it'><img title='SerpApi' src='https://i.imgur.com/JXqpoEE.png'/></a></center>
+<h3 align='center'><a href='https://serpapi.com/?utm_source=scrape-it'>SerpApi.com</a></h3>
+<a href='https://serpapi.com/?utm_source=scrape-it'><img title='SerpApi' src='https://i.imgur.com/JXqpoEE.png'/></a>
+<br/>
 <br/>
 
-<center><h3><a href='http://scrapeless.com/?utm_source=scrape-it'>Scrapeless.com</a></h3></center>
+<h3 align='center'><a href='http://scrapeless.com/?utm_source=scrape-it'>Scrapeless.com</a></h3>
+
 [![scrapeless services](https://assets.scrapeless.com/prod/posts/scrapeless-web-scraping-toolkit/770dae4cc5b004b6d262480625a47225.png)](https://www.scrapeless.com/en?utm_source=scrape-it)
 
 [Scrapeless](http://scrapeless.com/?utm_source=scrape-it) – Easy web scraping toolkit for businesses and developers
