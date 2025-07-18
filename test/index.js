@@ -8,15 +8,16 @@ const PORT = 9000
     , URL = HOST + ":" + PORT
     ;
 
-tester.describe("scrape-it", t => {
-    t.it("start the server", cb => {
+tester.describe("scrape-it", async t => {
+    debugger
+    await t.it("start the server", cb => {
         new Lien({
             port: 9000
           , public: `${__dirname}/public`
         }).on("load", cb);
     });
 
-    t.it("scrape simple data", async cb => {
+    await t.it("scrape simple data", async cb => {
         const { data } = await scrapeIt(URL, {
             title: "h1.title"
           , description: ".description"
@@ -33,7 +34,7 @@ tester.describe("scrape-it", t => {
         cb();
     });
 
-    t.it("scrape lists", async cb => {
+    await t.it("scrape lists", async cb => {
         const { data } = await scrapeIt(URL, {
             features: {
                 listItem: ".features > li"
@@ -51,7 +52,8 @@ tester.describe("scrape-it", t => {
         });
         cb();
     });
-    t.it("scrape and convert lists", async cb => {
+
+    await t.it("scrape and convert lists", async cb => {
         const { data } = await scrapeIt(URL, {
             features: {
                 listItem: ".features > li",
@@ -63,7 +65,8 @@ tester.describe("scrape-it", t => {
         });
         cb();
     });
-    t.it("promise version", async cb => {
+
+    await t.it("promise version", async cb => {
         scrapeIt(URL, {
             features: {
                 listItem: ".features > li"
@@ -82,7 +85,8 @@ tester.describe("scrape-it", t => {
             cb();
         });
     });
-    t.it("nested objects", async cb => {
+
+    await t.it("nested objects", async cb => {
         const { data } = await scrapeIt(URL, {
             nested: {
                 selector: ".nested"
@@ -118,7 +122,8 @@ tester.describe("scrape-it", t => {
         });
         cb();
     });
-    t.it("closest sample", async cb => {
+
+    await t.it("closest sample", async cb => {
         const { data } = await scrapeIt(URL, {
             addresses: {
                 listItem: "table tbody tr",
@@ -142,7 +147,7 @@ tester.describe("scrape-it", t => {
         cb();
     });
 
-    t.it("text nodes", async cb => {
+    await t.it("text nodes", async cb => {
         const { data } = await scrapeIt(URL, {
             line0: {
                 selector: ".textnodes",
@@ -160,7 +165,7 @@ tester.describe("scrape-it", t => {
         cb();
     });
 
-    t.it("only direct text nodes", async cb => {
+    await t.it("only direct text nodes", async cb => {
         const { data } = await scrapeIt(URL, {
             deep_line: {
                 selector: ".deep-textnodes",
@@ -173,7 +178,7 @@ tester.describe("scrape-it", t => {
         cb();
     });
 
-    t.it("end", () => {
+    await t.it("end", () => {
         process.exit();
     });
 });
