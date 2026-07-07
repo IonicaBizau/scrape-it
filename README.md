@@ -43,19 +43,19 @@
 <p align="center">
 Sponsored with :heart: by:
 <br/><br/>
-<h3 align='center'><a href='https://serpapi.com/?utm_source=scrape-it'>SerpApi.com</a></h3>
+<h4 align='center'><a href='https://serpapi.com/?utm_source=scrape-it'>SerpApi.com</a></h4>
 <a href='https://serpapi.com/?utm_source=scrape-it'><img title='SerpApi' src='https://i.imgur.com/JXqpoEE.png'/></a>
 <br/>
 <br/>
 
-<h3 align='center'><a href='https://talordata.com/?campaignid=6UNzOt6GVDjL96OF&utm_source=scrapeit&utm_term=scrapeit'>Talordata SERP API: Real-time, accurate search data to power every decision</a></h3>
+<h4 align='center'><a href='https://talordata.com/?campaignid=6UNzOt6GVDjL96OF&utm_source=scrapeit&utm_term=scrapeit'>Talordata SERP API: Real-time, accurate search data to power every decision</a></h4>
 
 [![Talordata](https://i.imgur.com/OgBW0rH.jpeg)](https://talordata.com/?campaignid=6UNzOt6GVDjL96OF&utm_source=scrapeit&utm_term=scrapeit)
 
 <br/>
 <br/>
 
-<h3 align='center'><a href='https://www.rapidproxy.io/?ref=scrt'>Rapidproxy——Power your data collection and automation with 90M+ reliable residential proxies built for scale.</a></h3>
+<h4 align='center'><a href='https://www.rapidproxy.io/?ref=scrt'>Rapidproxy——Power your data collection and automation with 90M+ reliable residential proxies built for scale.</a></h4>
 
 [![RapidProxy Services](https://i.imgur.com/7s9xWtr.png)](https://www.rapidproxy.io/?ref=scrt)
 
