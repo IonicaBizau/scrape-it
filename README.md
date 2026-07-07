@@ -55,31 +55,9 @@ Sponsored with :heart: by:
 <br/>
 <br/>
 
-<h3 align='center'><a href='http://scrapeless.com/?utm_source=scrape-it'>Scrapeless.com</a></h3>
+<h3 align='center'><a href='https://www.rapidproxy.io/?ref=scrt'>Rapidproxy——Power your data collection and automation with 90M+ reliable residential proxies built for scale.</a></h3>
 
-[![scrapeless services](https://assets.scrapeless.com/prod/posts/scrapeless-web-scraping-toolkit/770dae4cc5b004b6d262480625a47225.png)](https://www.scrapeless.com/en?utm_source=scrape-it)
-
-[Scrapeless](http://scrapeless.com/?utm_source=scrape-it) – Easy web scraping toolkit for businesses and developers
-
-⚡ [Scraping Browser](https://www.scrapeless.com/en/product/scraping-browser?utm_source=scrape-it):
-
- 1. Web browsing capabilities for AI agents and applications
-    - Collect data at scale for agents without being blocked
-    - Simulate user behavior using advanced browser tools
-    - Build agent applications with real-time and historical web data
- 2. Unlock any scale with unlimited parallel jobs
- 3. High-performance web unlocking built directly into the browser
- 4. Compatible with Puppeteer and Playwright
-
-⚡ [Deep SerpApi](https://www.scrapeless.com/en/product/deep-serp-api?utm_source=scrape-it): One-click Google search data monitoring, supporting 15+ SERP scenarios such as academic/Google Store/Maps, $0.1/thousand queries, 0.2s response. Recently, Scrapeless has officially launched [MCP Server](https://github.com/scrapeless-ai/scrapeless-mcp-server), which can help large prediction models easily capture the latest data and ensure the accuracy of the results.
-
-⚡ [Scraping API](https://www.scrapeless.com/en/product/scraping-api?utm_source=scrape-it): Easily obtain public content such as TikTok, Shopee, Amazon, Walmart, etc. Covering structured data of 8+ vertical industries such as e-commerce/social media, ready to use. Only billed by the number of successful calls.
-
-⚡ [Universal Scraping API](https://www.scrapeless.com/en/product/universal-scraping-api?utm_source=scrape-it): Intelligent IP rotation + real user fingerprint, success rate up to 99%. No more worrying about network blockades and crawling obstacles.
-
-⚠️ Exclusive for open source projects: Submit the Repo link to apply for 100,000 free Deep SerpApi queries!<br/>
-📌 [Try it now](https://app.scrapeless.com/passport/login?utm_source=scrape-it) | [Documentation](https://docs.scrapeless.com/en/scraping-browser/quickstart/introduction/?utm_source=scrape-it)
-----
+[![RapidProxy Services](https://i.imgur.com/7s9xWtr.png)](https://www.rapidproxy.io/?ref=scrt)
 
 
 
