@@ -11,7 +11,7 @@
     "humans"
   ],
   "license": "MIT",
-  "version": "6.1.14",
+  "version": "6.1.15",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -52,9 +52,9 @@
       "<br/>",
       "<br/>",
       "",
-      "<h4 align='center'><a href='https://www.rapidproxy.io/?ref=scrt'>Rapidproxy——Power your data collection and automation with 90M+ reliable residential proxies built for scale.</a></h4>",
+      "<h4 align='center'><a href='https://www.ipcook.com/?ref=89ZEWL&utm_source=github&utm_medium=referral&utm_campaign=ionicabizau'>Node.js-friendly residential proxies for your web scraping and data collection, with 99.99% connection stability.</a></h4>",
       "",
-      "[![RapidProxy Services](https://i.imgur.com/7s9xWtr.png)](https://www.rapidproxy.io/?ref=scrt)"
+      "[![IPcook](https://i.imgur.com/HoU1Arx.png)](https://www.ipcook.com/?ref=89ZEWL&utm_source=github&utm_medium=referral&utm_campaign=ionicabizau)"
     ],
     "installation": [
       {
