@@ -43,10 +43,11 @@
 <p align="center">
 Sponsored with :heart: by:
 <br/><br/>
-<h4 align='center'><a href='https://www.swiftproxy.net/?ref=scrapeit'>Swiftproxy</a>: Reliable rotating and static residential proxies for Node.js web scraping and data collection, with 90M+ IPs across 220+ locations worldwide.</h4>
-<a href='https://www.swiftproxy.net/?ref=scrapeit'><img title='Swiftproxy' src='https://i.imgur.com/LRI63dO.png'/></a>
 
 <br/><br/>
+
+<h4 align='center'><a href='https://serpapi.com/?utm_source=scrape-it'>SerpApi.com</a></h4>
+<a href='https://serpapi.com/?utm_source=scrape-it'><img title='SerpApi' src='https://i.imgur.com/JXqpoEE.png'/></a>
 
 <h4 align='center'><a href='https://talordata.com/?campaignid=6UNzOt6GVDjL96OF&utm_source=scrapeit&utm_term=scrapeit'>Talordata SERP API</a>: Real-time, accurate search data to power every decision</h4>
 
@@ -57,11 +58,6 @@ Sponsored with :heart: by:
 <h4 align='center'><a href='https://proxy-seller.com/?partner=885F86192D7D402F'>ProxySeller</a> gives you reliable proxy infrastructure for any workflow: private residential, mobile (4G/5G/LTE), ISP, and datacenter IPv4/IPv6 proxies, all with HTTP(S) and SOCKS5 support. Tap into 47M+ residential IPs across 220+ locations, target exactly the country, city, or ISP you need, and count on 99.7% uptime backed by 24/7 support. <strong>Get 15% off with promo code BIZAU</strong>.</h4>
 
 [![ProxySeller](https://i.imgur.com/iGgbwz8.png)](https://proxy-seller.com/?partner=885F86192D7D402F)
-
-<br/><br/>
-
-<h4 align='center'><a href='https://serpapi.com/?utm_source=scrape-it'>SerpApi.com</a></h4>
-<a href='https://serpapi.com/?utm_source=scrape-it'><img title='SerpApi' src='https://i.imgur.com/JXqpoEE.png'/></a>
 
 
 
@@ -248,7 +244,6 @@ scrapeIt("https://ionicabizau.net", {
 A scraping module for humans.
 
 #### Params
-
 - **String|Object** `url`: The page url or request options.
 - **Object** `opts`: The options passed to `scrapeHTML` method.
 - **Function** `cb`: The callback function.
@@ -266,7 +261,6 @@ Scrapes the data in the provided element.
 For the format of the selector, please refer to the [Selectors section of the Cheerio library](https://github.com/cheeriojs/cheerio#-selector-context-root-)
 
 #### Params
-
 - **Cheerio** `$`: The input element.
 - **Object** `opts`: An object containing the scraping information.
   If you want to scrape a list, you have to use the `listItem` selector:
